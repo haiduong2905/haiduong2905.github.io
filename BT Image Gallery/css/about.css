@@ -1,0 +1,62 @@
+	#ao img:hover{
+		transform: scale(1.05);
+	}
+
+	.aomu, .aoarsenal, .aoreal, .aochelsea, .aobarca {
+		padding: 0;
+		margin: auto;
+		float: left;
+		width: 31.8%;
+		height: 318px;
+		margin-bottom: 20px;
+	}
+
+	.aomu {
+		border: 5px solid red;	
+	}
+	.aomu1, .aomu2 {
+		margin-right: 22px;	
+	}
+	 .aomu3{
+	 	margin-right: 0;
+	}
+
+	.aoarsenal {
+		border: 5px solid green;
+	}
+	.aoarsenal1, .aoarsenal2 {
+		margin-right: 22px;	
+	}
+	 .aoarsenal3{
+	 	margin-right: 0;
+	}
+
+	.aoreal {
+		border: 5px solid orange;
+	}
+	.aoreal1, .aoreal2 {
+		margin-right: 22px;	
+	}
+	 .aoreal3{
+	 	margin-right: 0;
+	}
+
+	.aochelsea {
+		border: 5px solid blue;
+	}
+	.aochelsea1, .aochelsea2 {
+		margin-right: 22px;	
+	}
+	 .aochelsea3{
+	 	margin-right: 0;
+	}
+
+	.aobarca {
+		border: 5px solid purple;
+	}
+	.aobarca1, .aobarca2 {
+		margin-right: 22px;	
+	}
+	 .aobarca3{
+	 	margin-right: 0;
+	}

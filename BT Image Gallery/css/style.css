@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	background-color: #b5b5b5;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+#main-menu a{
+	padding: 10px;
+	margin: 0;
+	background-color: #97ffff;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+#main-menu a:link {
+	color: blue;
+}
+
+#main-menu a:hover, #main-menu a:active{
+	color: black;
+	background-color: red;
+}
+
+#main-menu a.active{
+	font-weight: bold;
+}
+
+.wrap{
+	max-width: 1000px;
+	margin: auto;
+}
