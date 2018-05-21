@@ -1,0 +1,41 @@
+	.avatar {
+		border: 2px solid purple;
+		border-radius: 50%;
+		position: absolute;
+		top: 61px;
+		left: 9px;
+	}
+	.avatar img{
+		max-width: 100px;
+		border-radius: 50%;
+		display: block;
+	}
+	#ao img:hover{
+		opacity: 0.6;
+	}
+
+	.aomanu, .aoarsenal, .aoreal, .aochelsea, .aobarca {
+		float: left;
+		padding: 0;
+		border: 2px solid grey;
+		margin: auto;
+		width: 29.85%;
+		height: 300px;	
+	}
+	#ao {
+		position: absolute;
+		top: 163px;
+		left: 104px;
+		width: 1000px;
+	}
+
+	#arrowup {
+		width: 50px;
+		height: 50px;
+		bottom: 0;
+		right: 150px;
+		position: fixed;
+	}
+	#footer {
+		clear: both;
+	}
