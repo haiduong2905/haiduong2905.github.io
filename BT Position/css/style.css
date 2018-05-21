@@ -13,7 +13,10 @@ img{
 .wrap{
 	max-width: 1000px;
 	margin: auto;
-	position: relative;	
+}
+
+#main-menu {
+	position: relative;
 }
 
 #main-menu a{

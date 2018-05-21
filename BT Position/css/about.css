@@ -1,16 +1,18 @@
-	.avatar {
+	#main-menu > a:first-child {
+		height: 100px;
+		width: 100px;		
 		border: 2px solid purple;
 		border-radius: 50%;
 		position: absolute;
-		top: 61px;
-		left: 9px;
+		top: -103px;
+		left: -1px;		
 	}
-	.avatar img{
-		max-width: 100px;
-		margin: auto;
+	#main-menu > a:first-child img{
+		border: 2px solid purple;
 		border-radius: 50%;
-		display: block;
+		
 	}
+
 	#ao img:hover{
 		opacity: 0.6;
 	}
@@ -26,7 +28,7 @@
 	}
 	#ao {
 		position: absolute;
-		top: 163px;
+		top: 0;
 		left: 104px;
 		width: 1000px;
 	}
