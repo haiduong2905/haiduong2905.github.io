@@ -1,0 +1,83 @@
+	#main-menu > a:first-child {
+		height: 100px;
+		width: 100px;		
+		border: 2px solid purple;
+		border-radius: 50%;
+		position: absolute;
+		top: -103px;
+		left: -1px;		
+	}
+	#main-menu > a:first-child img{
+		border: 2px solid purple;
+		border-radius: 50%;
+		
+	}
+	#title2 {
+		width: 89.6%;
+		position: absolute;
+		top: 0;
+		left: 104px;
+
+	}
+	@keyframes title2 {
+    	0%  {color: #F9E559;}
+    	25%  {color: #FFFFFF;}
+    	50%  {color: #F8DEBD;}
+    	75%  {color: #FFFFFF;}
+    	100% {color: #F9E559;}
+	}
+
+	h1 {
+		text-align: center;
+		margin: auto;
+		background-color: #9999ee;
+		animation: title2 5s ease infinite;
+	}
+
+	#ao img:hover{
+		opacity: 0.6;
+	}
+
+	.aomanu, .aoarsenal, .aoreal, .aochelsea, .aobarca {
+		float: left;
+		padding: 0;
+		border: 2px solid grey;
+		margin: auto;
+		width: 29.85%;
+		height: 298px;
+		display: block;	
+	}
+	#ao {
+		position: absolute;
+		top: 40px;
+		left: 104px;
+		width: 1000px;
+	}
+
+	#arrowup {
+		width: 50px;
+		height: 50px;
+		bottom: 0;
+		right: 150px;
+		position: fixed;
+	}
+	 @-webkit-keyframes fade {
+        50% {
+            opacity: 0;
+        }
+    	}
+     @keyframes fade {
+        50% {
+            opacity: 0.02;
+        }
+		} 
+
+	#footer {
+		position: relative;
+		-webkit-animation: fade 4s infinite 1s;
+        animation: fade 4s infinite 1s;
+		transition: margin-left 2s 0.5s ease-in-out;
+  		-moz-transition: margin-left 2s 0.5s ease-in-out;
+  		-webkit-transition: margin-left 2s 0.5s ease-in-out;
+		clear: both;
+	}

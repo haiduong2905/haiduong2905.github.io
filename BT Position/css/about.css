@@ -1,38 +1,23 @@
-	#main-menu > a:first-child {
-		height: 100px;
-		width: 100px;		
-		border: 2px solid purple;
-		border-radius: 50%;
-		position: absolute;
-		top: -103px;
-		left: -1px;		
-	}
-	#main-menu > a:first-child img{
-		border: 2px solid purple;
-		border-radius: 50%;
-		
-	}
 
 	#ao img:hover{
-		opacity: 0.6;
+		opacity: 0.5;
 	}
 
-	.aomanu, .aoarsenal, .aoreal, .aochelsea, .aobarca {
+	.ao-manu, .ao-arsenal, .ao-real, .ao-chelsea, .ao-barca {
 		float: left;
 		padding: 0;
-		border: 2px solid grey;
+		border: 2px solid cyan;
 		margin: auto;
-		width: 29.85%;
-		height: 298px;
+		max-width: 33.33%;
+		max-height: 303px;
 		display: block;	
 	}
-	#ao {
-		position: absolute;
-		top: 0;
-		left: 104px;
-		width: 1000px;
-	}
 
+#ao{
+	position: absolute;
+	top: 0;
+	left: 90px;
+}
 	#arrowup {
 		width: 50px;
 		height: 50px;
@@ -40,6 +25,7 @@
 		right: 150px;
 		position: fixed;
 	}
+	
 	#footer {
 		clear: both;
 	}
