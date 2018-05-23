@@ -9,40 +9,41 @@ body{
 
 img{
 	max-width: 100%;
+	max-height: 100%;
 }
 
 .wrap{
-	max-width: 1000px;
+	max-width: 100%;
 	margin: auto;
 }
-
-#main-menu {
-	position: relative;
+#footer p {
+  padding: 5px 0 0 0;
+  font-weight: bold;
+  text-align: right;
+  max-width: 1000px;
+  margin: auto;
+}
+.fade {
+  animation: fade 10s infinite 2s;
+  -webkit-animation: fade 10s infinite 2s;
 }
 
-#main-menu a{
-	padding: 0;
-	margin: 3px 6px 3px 0;
-	background-color: #97ffff;
-	font-size: 20px;
-	font-weight: bold;
-	text-decoration: none;
-	line-height: 30px;
-	display: block;	
-	width: 100px;
-	height: 30px;
+@keyframes fade {       
+        0% 	{opacity: 0;
+      		transform: translateX(100px);}
+       30% 	{opacity: 1;
+      		transform: translateX(0px);}
+      100% 	{opacity: 0;
+      		transform: translateX(-500px);} 
 }
 
-#main-menu a:link {
-	color: grey;
-}
-#main-menu a:visited {
-	color: black;
-	font-weight: bold;
+@-webkit-keyframes fade {
+        0% 	{opacity: 0;
+      		transform: translateX(100px);}
+       30%	{opacity: 1;
+      		transform: translateX(0px);}
+      100% 	{opacity: 0;
+      		transform: translateX(-500px);}
 }
 
-#main-menu a:hover, #main-menu a:active{
-	color: black;
-	background-color: red;
-}
 
