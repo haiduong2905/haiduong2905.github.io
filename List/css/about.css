@@ -1,0 +1,18 @@
+#menu {
+	list-style-type: none;
+}
+
+#menu > li > ul {
+    list-style-type: none;
+    display: none;
+}
+
+#menu > li:hover > ul {
+    display: block;
+}
+a {
+	text-decoration: none;
+}
+#menu a {
+	font-weight: bold;
+}

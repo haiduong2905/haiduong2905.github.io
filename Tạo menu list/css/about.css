@@ -1,0 +1,24 @@
+.wrap {
+	max-width:1000px;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;	
+}
+#menu{
+	background-color: white;
+}
+#menu >li>ol{
+
+}
+
+#menu >li:hover ol{
+	display: block;
+}
+.content{
+	background-color: white;
+	padding: 1px;
+}
+a {
+	text-decoration: none;
+}
