@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập 7</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script>
+		var teacher = {
+		 	firstName: "Alex",
+		 	lastName: "Furguson",
+		 	age: 62,
+		 	say: function()	{}
+		}
+
+		var parent = {
+			firstName: "David",
+		 	lastName: "Beckham",
+		 	age: 43,
+		 	say: function()	{}
+		}
+
+		var student = {
+			firstName: "Cristian",
+			lastName: "Ronaldo",
+			age: 19,
+			say: function()	{}
+		}
+		
+		function aboutMe() {
+			document.write ("Xin chào, tôi là "+ this.firstName + " "+ this.lastName + " . Năm nay tôi "+this.age + " tuổi.");
+		}
+	</script>
+</body>
+</html>
