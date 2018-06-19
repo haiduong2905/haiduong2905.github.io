@@ -1,383 +1,387 @@
 body {
-	max-width: 1200px;
-	font-family: sans-serif;
-	margin: 0 auto;
-	padding: 0;
+    max-width: 1200px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .wrap {
-	background: #353541;
+    background: #353541;
 }
+
 .left {
-	width: 20%;
-	float: left;
+    width: 20%;
+    float: left;
 }
 
 .left img {
-	width: 100%;	
+    width: 100%;
 }
 
 .profile {
-	position: relative;
+    position: relative;
 }
 
 .name {
-	position: absolute;
-	color: #FFF;
-	top: 50%;
-	left: 10%;
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 10%;
 }
 
 .profile_menu {
-	margin: 0 auto;
-	padding: 0;
-	background: #353541;
+    margin: 0 auto;
+    padding: 0;
+    background: #353541;
 }
 
 .menu_list {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 .menu_link {
-	text-decoration: none;
-	color: #fff;
-	line-height: 50px;
-	border:  1px solid #2b2b38;
-	display: block;
-	text-indent: 20px;
-	font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    border: 1px solid #2b2b38;
+    display: block;
+    text-indent: 20px;
+    font-size: 20px;
 }
 
 .banner {
-	width: 100%;
-	position: relative;
+    width: 100%;
+    position: relative;
 }
 
 .banner img {
-	width: 100%;
-	filter: grayscale(100%);
+    width: 100%;
+    filter: grayscale(100%);
 }
 
 .slogan {
-	width: 100%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	color: #FFF;
-	text-align: center;
-	transform: translate(-50%, -50%);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
 
 .slogan h1 {
-	font-size: 45px;
-	padding: 0;
-	margin: 0 auto;
-	width: 100%;
+    font-size: 45px;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .slogan p {
-	font-size: 14px;
-	padding-bottom: 50px;
-	margin: 0 auto;
-	width: 55%;
+    font-size: 14px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 55%;
 }
 
 .slogan a {
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .button_1 {
-	width: 180px;
-	height: 40px;
-	color: #fff;
-	line-height: 30px;
-	font-size: 25px;
-	background-color: #fb6470;
-	border: 1px solid #fb6470;
-	border-radius: 5px
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 25px;
+    background-color: #fb6470;
+    border: 1px solid #fb6470;
+    border-radius: 5px
 }
 
 .right {
-	float: left;
-	width: 80%;
-	background: #fff;
+    float: left;
+    width: 80%;
+    background: #fff;
 }
 
 .portfolio {
-	width: 100%;
-	float: left;
-	padding-bottom: 50px;
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
 }
 
 .portfolio h1 {
-	padding: 25px 0;
-	margin: 0;
+    padding: 25px 0;
+    margin: 0;
 }
 
-.portfolio span {	
-	border-bottom: 2px solid #f27982;
+.portfolio span {
+    border-bottom: 2px solid #f27982;
 }
 
 .portfolio a {
-	text-decoration: none;
-	color: #3e3e3e;
+    text-decoration: none;
+    color: #3e3e3e;
 }
 
-.content { 
-	width: 80%;
-	margin: 0 auto; 
+.content {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .content_menu {
-	width:100%;
-	margin: 0;
-	padding: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .content_menu_list {
-	margin: 0;
-	text-indent: 20px;
-	list-style-type: none;
-	float: left;
-	width: 25%;
-	border-bottom: 2px solid #ccc;
+    margin: 0;
+    text-indent: 20px;
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    border-bottom: 2px solid #ccc;
 }
 
 .content_menu_list a {
-	text-decoration: none;
-	color: #3e3e3e;
-	display: block;
-	font-size: 20px;
+    text-decoration: none;
+    color: #3e3e3e;
+    display: block;
+    font-size: 20px;
 }
 
 .content_menu_list_active2 {
-	text-align: right;
+    text-align: right;
 }
 
 .content_menu_list_active1 {
-	border-bottom: 2px solid #f27982;.	
+    border-bottom: 2px solid #f27982;
+    .
 }
 
 .list_exp {
-	width: 100%;
-	float: left;
+    width: 100%;
+    float: left;
 }
 
 .exp {
-	float: left;
-	width: 49%;
+    float: left;
+    width: 49%;
 }
 
 .exp1 {
-	padding: 0 1% 2% 0;
+    padding: 0 1% 2% 0;
 }
 
 .exp2 {
-	padding: 0 0 2% 1%;
+    padding: 0 0 2% 1%;
 }
 
 .exp3 {
-	padding: 0 1% 2% 0;
+    padding: 0 1% 2% 0;
 }
 
 .exp4 {
-	padding: 0 0 2% 1%;
+    padding: 0 0 2% 1%;
 }
 
 .exp5 {
-	padding: 0 1% 2% 0;
+    padding: 0 1% 2% 0;
 }
 
 .exp6 {
-	padding: 0 0 2% 1%;
+    padding: 0 0 2% 1%;
 }
 
 .exp img {
-	width: 100%;
-	display: block;
+    width: 100%;
+    display: block;
 }
 
 .job {
-	color: #fff;
+    color: #fff;
+    padding-left: 10px;
 }
 
 .job1 {
-	background: #01b9c3;
+    background: #01b9c3;
 }
 
 .job2 {
-	background: #1e2e3e;
+    background: #1e2e3e;
 }
 
 .job3 {
-	background: #3f3d3e;
+    background: #3f3d3e;
 }
 
 .job4 {
-	background: #0093b5;
+    background: #0093b5;
 }
 
 .job5 {
-	background: #353541;
+    background: #353541;
 }
 
 .job6 {
-	background: #6176ab;
+    background: #6176ab;
 }
 
 .job h1 {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
-.job a {	
-	color: #fff;
-	text-decoration: none;
-	border-bottom: 1px solid #ddf2f4;
-	font-size: 14px;
-	padding: 0 0 3px 0;
+.job a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #ddf2f4;
+    font-size: 14px;
+    padding: 0 0 3px 0;
 }
 
-.job h4 {	
-	margin: 0;
+.job h4 {
+    margin: 0;
 }
 
-.job p {	
-	line-height: 40px;
-	margin: 0;
+.job p {
+    line-height: 40px;
+    margin: 0;
 }
 
 .contact {
-	float: left;
-	width: 100%;
+    float: left;
+    width: 100%;
 }
 
 .contact h3 {
-	margin: 0;
-	line-height: 50px;
+    margin: 0;
+    line-height: 50px;
 }
 
 .email {
-	width: 45%;
-	float: left;
-	margin: 0;
-	padding: 0;	
-	position: relative;
+    width: 45%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
 .email input {
-	width: 80%;
-	color: #747474;
-	height: 40px;
+    width: 80%;
+    color: #747474;
+    height: 40px;
 }
 
 .email textarea {
-	resize: none;
-	color: #747474;
-	width: 80%;
-	font-family: sans-serif;
+    resize: none;
+    color: #747474;
+    width: 80%;
+    font-family: sans-serif;
 }
 
 .email h3 {
-	color: #747474;
+    color: #747474;
 }
 
 .email p {
-	padding: 15px 0;
-	margin: 0;	
+    padding: 15px 0;
+    margin: 0;
 }
 
 .email a {
-	text-decoration: none;
-	color: #fff;	
+    text-decoration: none;
+    color: #fff;
 }
 
 .button_2 {
-	position: absolute;
-	top: 300px;
-	right: 70px;
-	padding: 6px;
-	font-size: 18px;
-	background-color: #fb6470;
-	border: 1px solid #fb6470;
+    position: absolute;
+    top: 300px;
+    right: 70px;
+    padding: 6px;
+    font-size: 18px;
+    background-color: #fb6470;
+    border: 1px solid #fb6470;
 }
 
 .dvs {
-	width: 5%;
-	float: left;
+    width: 5%;
+    float: left;
 }
 
 .dvs_child {
-	width: 100%;
-	height: 270px;
-	border-left: 1px solid #ccc;
-	margin: 30px 0 0 0 ;
+    width: 100%;
+    height: 270px;
+    border-left: 1px solid #ccc;
+    margin: 30px 0 0 0;
 }
 
 .address {
-	width: 50%;
-	float: left;
-	color: #747474;	
+    width: 50%;
+    float: left;
+    color: #747474;
 }
 
 .detail {
-	width: 100%;
-	height: 115px;
-	position: relative;
-	padding-left: 20px;
+    width: 100%;
+    height: 115px;
+    position: relative;
+    padding-left: 20px;
 }
+
 .address h3 {
-	font-size: 16px;
-	margin: 0;
-	padding: 0;
-	color: #747474;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #747474;
 }
 
 .address p {
-	font-size: 14px;
-	margin: 0;
-	padding: 0;	
-	color: 	#747474;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: #747474;
 }
 
 .detail_contact {
-	width: 300px;
-	float: right;
+    width: 300px;
+    float: right;
 }
 
 .detail i {
-	position: absolute;
-	top: 20px;
-	color: #3e3e3e;
-	font-size: 40px;
+    position: absolute;
+    top: 20px;
+    color: #3e3e3e;
+    font-size: 40px;
 }
 
 .footer {
-	width: 100%;
-	float: left;
-	text-align: center;
-	padding-top: 100px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
 }
 
 .footer a {
-	color: #9b9b9b;
-	padding: 0 20px 0 20px;
-	font-size: 40px;
+    color: #9b9b9b;
+    padding: 0 20px 0 20px;
+    font-size: 40px;
 }
 
 .footer p {
-	color: #9b9b9b;
+    color: #9b9b9b;
 }
 
 .active1 {
-	color: #69d4d8 !important;
-	border-right: 1px solid #9b9b9b;
+    color: #69d4d8 !important;
+    border-right: 1px solid #9b9b9b;
 }
 
 .active2 {
-	border-right: 1px solid #9b9b9b;
+    border-right: 1px solid #9b9b9b;
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
