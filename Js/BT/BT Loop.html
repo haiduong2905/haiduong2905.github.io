@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bài tập Loop</title>
+</head>
+
+<body>
+    <script>
+        // // Bai 1
+        // var giaiThua = 1;
+        // var n = 5;
+        // for (var i = n; i >= 1; i--) {
+        //     giaiThua = giaiThua * i;
+        // }
+        // console.log(giaiThua);
+        // // Bai 2
+        // var arr = ["T", "E", "C", "H"];
+        // var res = "";
+        // for (var i = arr.length - 1; i >= 0; i--) {
+        //     res += arr[i];
+        // }
+        // console.log(res);
+        // Bai 3
+        // var String = "123";
+
+        // function duplicate() {
+        //     var str = String;
+        //     for (var i = 1; i < 10; i++) {
+        //         str += "-" + String;
+        //     }
+        //     console.log(str);
+        // }
+        // Bai 4
+          // var arr = ["Vân", "An", "Lương", "Huy", "Chiến", "Quý"];
+           function ds(arr) {
+          	var arr;
+            arr.sort(function(a, b) {
+              return a.localeCompare(b);
+              });
+            console.log(arr);
+          for (let i = 1; i <= arr.length; i=i+1) {
+              document.write("<p>" +i +". "+arr[i-1]+"</p>");
+              };
+          }
+        // // Bai 5
+        // var arr_1 = [96, 5, 11, 24, 33, 7];
+
+        // function duplicate2() {
+        //     var arr_2 = arr_1;
+        //     for (var i = 0; i < arr_1.length; i++) {
+        //         arr_2[i] = arr_1[i] * 2;
+        //     };
+        //     console.log(arr_2);
+        // }
+
+        // // Bai 6
+        // function surplus() {
+        //     var arr_3 = arr_1;
+        //     for (var i = 0; i < arr_1.length; i++) {
+        //         arr_3[i] = arr_1[i] % 2;
+        //     };
+        //     console.log(arr_3);
+        // }
+    </script>
+
+</html>
