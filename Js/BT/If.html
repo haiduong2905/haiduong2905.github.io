@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>If1</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script>
+        // Bai 1
+        function max(a, b) {
+        	if (typeof a != "number" || typeof b != "number") {
+                document.write("Tham số nhập vào không phải là kiểu Number <br>")
+            }
+
+            if (typeof a == "number" && typeof b == "number" && a > b) {
+                document.write("Số lớn nhất là: " + a + "<br>");
+            }
+
+            if (typeof a == "number" && typeof b == "number" && a < b) {
+                document.write("Số lớn nhất là: " + b + "<br>");
+            }
+
+            if (typeof a == "number" && typeof b == "number" && a == b) {
+                document.write("Hai số bằng nhau<br>")
+            }            
+        }
+        // Bai 2
+
+        function factorial(x) {
+            let res = 1;
+            if (typeof x == "number" && x < 0) {
+                document.write(x + " không phải số nguyên dương</br>");
+            };
+
+            if (typeof x != "number") {
+                document.write("Số bạn vừa nhập không phải kiểu Number</br>");
+            }
+            if (x == 0) {
+                document.write("Kết quả của " + x + "! là: " + res + "</br>");
+            };
+
+            if (typeof x == "number" && x > 0) {
+                for (var i = x; i > 0; i--) {
+                    res = res * i;
+                }
+                document.write("Kết quả của " + x + "! là: " + res + "</br>");
+            };
+        }
+
+        // Bai 3 
+        // [24,63,767,2425,324,566,223,0]
+        function creat(arr) {
+            let res = [];
+            for (i = 0; i < arr.length; i++) {
+                if (arr[i] % 2 == 0) {
+                    res.push(arr[i]);
+                }
+            }
+            res.sort(function(a, b) {
+                return (b - a);
+            });
+            return res;
+        }
+
+        // Bai 4
+        let account = {
+            username: "",
+            password: "123456",
+            confirm: "12345",
+        }
+
+        function test(account) {
+            if (account.username.length == 0) {
+                document.write("Tên đăng nhập không được để trống<br>");
+            }
+
+            if (account.username.length > 20) {
+                document.write("Tên đăng nhập phải nhỏ hơn 20 ký tự<br>");
+            }
+
+            if (account.password.length <6 || account.password.length > 32) {
+                document.write("Password phải từ 6 đến 32 ký tự<br>");
+            }
+
+            if (account.password != account.confirm) {
+                document.write("Password nhập lại không đúng.<br>");
+            }
+
+            return account;
+        }
+
+        // Bai 4 push các thuộc tính của Object vào 1 mảng
+        let acc = {
+            username: "",
+            password: "12345",
+            confirm: "123456",
+        }
+
+        function test() {
+
+            let arr = [];
+            arr.push(acc.username, acc.password, acc.confirm);
+
+            if (arr[0].length == 0) {
+                document.write("Tên đăng nhập không được để trống<br>");
+            }
+            if (arr[0].length > 20) {
+                document.write("Tên đăng nhập phải nhỏ hơn 20 ký tự<br>");
+            }
+            if (arr[1].length < 6 || arr[1].length > 32) {
+                document.write("Password phải từ 6 đến 32 ký tự<br>");
+            }
+
+            if (arr[1].length != arr[2].length) {
+                document.write("Password nhập lại không đúng<br>");
+            }
+            return arr;
+        }
+    </script>
+</body>
+
+</html>
