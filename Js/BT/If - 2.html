@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bài tập IF-2</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script>
+        // Bai 1
+        var now = new Date();
+        var hour = now.getHours();
+        var minute = now.getMinutes();
+        var date = now.getDate();
+        var month = now.getMonth() + 1;
+        var year = now.getFullYear();
+        if (0 < month && month < 4) {
+            rs = "Spring";
+        } else
+
+        if (3 < month && month < 7) {
+            rs = "Summer";
+        } else
+
+        if (6 < month && month < 10) {
+            rs = "Autum";
+        } else
+
+        if (9 < month && month < 13) {
+            rs = "Winter";
+        }
+        document.write("Hour " + hour + ":" + minute + "'" + ", date " + date + "/" + month + "/" + year + "</br>" + "Season is " + rs);
+
+
+        //  Bai 2
+        //  "Viết hàm cắt chuỗi với tham số là 1 chuỗi bất kỳ." 
+        //  Kiểm tra xem tham số nhập vào có phải là chuỗi không, nếu là số thì convert sang chuỗi. 
+        //  Sau đó lại kiểm tra nếu chuỗi có độ dài nhỏ hơn 10 ký tự thì hiển thị toàn bộ chuỗi, 
+        //  nếu chuỗi có độ dài lớn hơn 10 ký tự thì hiển thị 10 ký tự đầu tiên kèm theo dấu "...".
+
+        function test(str) {
+            if (typeof str == "string") {
+                console.log("Tham số nhập vào là string");
+            } else {
+                str = str.toString();
+                console.log("Tham số nhập vào không phải string");
+            }
+            if (str.length <= 10) {
+                return str;
+            } else return (str.substring(0, 10) + "...");
+        }
+
+        //    Bai 3
+        function point(x) {
+            let kq;
+            if (0 <= x && x <= 3.9) {
+                kq = "F";
+            } else
+            if (4 <= x && x <= 5.4) {
+                kq = "D";
+            } else
+            if (5.5 <= x && x <= 6.9) {
+                kq = "C";
+            } else
+            if (7 <= x && x <= 8.4) {
+                kq = "B";
+            } else
+            if (8.5 <= x && x <= 10) {
+                kq = "A";
+            }
+            document.write("Điểm chữ là: " + kq + "</br>");
+        }
+
+        // Bai 4
+        function translate(x) {
+            switch (x) {
+                case "ru":
+                    document.write("Здравствуйт\е");
+                    break;
+                case "fr":
+                    document.write("Bonjour");
+                    break;
+                case "ja":
+                    document.write("こんにち\は");
+                    break;
+                case "ko":
+                    document.write("여보세\요");
+                    break;
+                default:
+                    document.write("Xin chào");
+                    break;
+            }
+        }
+
+        // Bai 5
+        // mảng dùng để test: testValue([false, false, false, false,true, false, false, true])
+
+        function testValue(arr2) {
+            for (i = 0; i < arr2.length; i++) {
+                if (arr2[i] == true) {
+                    document.write("<p>\"True\" xuất hiện lần đầu trong mảng tại vị trí thứ: " + i + "</p>");
+                    break;
+                }
+            }
+        }
+
+        // Bai 6
+        function printTest() {
+            for (x = 1, y = 2; x <= 100, y <= 100; x = x + 2, y = y + 2) {
+                document.write("<p style='color:red'>" + x + "<br/></p>");
+                document.write("<p style='color:blue'>" + y + "<br/></p>");
+            }
+        }
+    </script>
+</body>
+
+</html>
