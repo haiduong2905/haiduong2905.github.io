@@ -28,12 +28,12 @@
         </p>
     </div>
     <script>
-        // changeFontSize("32px")
+        // changeFontSize("32")
 
         function changeFontSize(x) {
             var a = document.getElementsByClassName("paragraph");
             for (i = 0; i < a.length; i++) {
-                a[i].style.fontSize = x;
+                a[i].style.fontSize = x + "px";
             };
         }
 
@@ -66,25 +66,25 @@
         }
 
         // // // changeColor("blue", "yellow", "red")
-        function changeColor(a, b, c) {
-            var x = document.getElementsById("p1");
-            var y = document.getElementsById("p2");
-            var z = document.getElementsById("p3");
-            p1.style.color = a;
-            p2.style.color = b;
-            p3.style.color = c;
+        function changeColor() {
+            var a = document.getElementById("p1");
+            var b = document.getElementById("p2");
+            var c = document.getElementById("p3");
+            a.style.color = "blue";
+            b.style.color = "yellow";
+            c.style.color = "red";
         }
 
         // changeBgColor("blue")
-        function changeBgColor(c) {
-            var x = document.getElementsByTagName("body");
-            x[0].style.backgroundColor = c;
+        function changeBgColor(x) {
+            var a = document.getElementsByTagName("body");
+            a[0].style.backgroundColor = x;
         }
-        // copyContent()
-        function copyContent() {
-            var x = document.getElementsByClassName("paragraph1");
-            var y = document.getElementsByClassName("paragraph2");
-            x[0].innerHTML = y[0].innerHTML;
+        // copyContent(0,1)
+        function copyContent(a, b) {
+            var a = document.getElementsByClassName("paragraph1");
+            var b = document.getElementsByClassName("paragraph2");
+            a[0].innerHTML = b[0].innerHTML;
         }
     </script>
 </body>
