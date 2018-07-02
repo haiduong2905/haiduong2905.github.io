@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculation</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div id="calc">
+        <div id="result"></div>
+        <!-- // <input type="text" value="0" id="result"> -->
+        <div id="math_1" class="row row_1">
+            <button onclick="press(this)" value="(">(</button>
+            <button onclick="press(this)" value=")">)</button>
+            <button onclick="cube()">x 
+                <sub>3</sub>
+            </button>
+            <button onclick="del()" class="active_delete" type="reset">C</button>
+        </div>
+        <div id="math_2" class="row row_2">
+            <button onclick="square()">x 
+                <sub>2</sub>
+            </button>
+            <button onclick="sqrt()" value="√">√</button>
+            <button onclick="percent()" value="%">%</button>
+            <button onclick="press(this)" value="/">÷</button>
+        </div>
+        <div id="math_3" class="row row_3">
+            <button onclick="press(this)" value="7">7</button>
+            <button onclick="press(this)" value="8">8</button>
+            <button onclick="press(this)" value="9">9</button>
+            <button onclick="press(this)" value="*">x</button>
+        </div>
+
+        <div id="math_4" class="row row_4">
+            <button onclick="press(this)" value="4">4</button>
+            <button onclick="press(this)" value="5">5</button>
+            <button onclick="press(this)" value="6">6</button>
+            <button onclick="press(this)" value="-">-</button>
+        </div>
+
+        <div id="math_5" class="row row_5">
+            <button onclick="press(this)" value="1">1</button>
+            <button onclick="press(this)" value="2">2</button>
+            <button onclick="press(this)" value="3">3</button>
+            <button onclick="press(this)" value="+">+</button>
+        </div>
+        <div id="math_6" class="row row_6">
+            <button onclick="press(this)" value="0">0</button>
+            <button onclick="press(this)" value=".">.</button>
+            <button onclick="math()" class="active_result">=</button>
+        </div>
+    </div>
+    <script>
+        function press(button) {
+            var x = button.value;
+            document.getElementById("result").innerText += x;
+        }
+
+        function math() {
+            var y = eval(document.getElementById("result").innerText);
+            document.getElementById("result").innerText = y;
+        }
+
+        function sqrt() {
+            var y = Math.sqrt(document.getElementById("result").innerText);
+            document.getElementById("result").innerText = y;
+        }
+
+        function square() {
+            var y = Math.pow(document.getElementById("result").innerText, 2);
+            document.getElementById("result").innerText = y;
+        }
+
+        function cube() {
+            var y = Math.pow(document.getElementById("result").innerText, 3);
+            document.getElementById("result").innerText = y;
+        }
+
+        function percent() {
+            var y = eval(document.getElementById("result").innerText);
+            document.getElementById("result").innerText = y * 100 + "%";
+        }
+
+        function del() {
+            var y = document.getElementById("result").innerText;
+            document.getElementById("result").innerText = "";
+        }
+    </script>
+</body>
+
+</html>
