@@ -1,0 +1,22 @@
+
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+}
+
+.paragraph {
+	text-indent: 20px;
+	text-align: justify;
+}
+
+.content {
+	border: 2px solid #ccc;
+	padding: 0 15px;
+}
+
+
+

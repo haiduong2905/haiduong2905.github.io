@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 class="title"> Nước Nhật </h1>
+
+    <div id="content" class="content">
+        <p id="p1" class="paragraph paragraph1">
+            Nhật Bản theo tiếng Hán có nghĩ là “Mặt trời”, cho nên nước Nhật mới được gọi là đất nước mặt trời mọc. Với diện tích gần 400.000km2, trải dài từ bờ biển Okhotsk ở phía Bắc đến phía nam biển Đông Hải của Trung Quốc. Phía Đông giáp với Hàn Quốc và Nga
+            đã tạo cho Nhật Bản một địa thế giao thương thuận lợi. Đặc biệt, Nhật bản còn là đất nước có nhiều đảo nhất thế giới với gần 7.000 hòn đảo, trong đó có 5 đảo lớn nhất và có nhiều người sinh sống nhất là Honshu, Hokkaido, Kyushu, Shikoku và
+            Okinawa.
+        </p>
+
+        <p id="p2" class="paragraph paragraph2">
+            Do nằm trên vành đai Thái Bình Dương, nên khí hậu Nhật Bản thuộc vùng ôn đới, với 4 mùa rõ rệt và thiên nhiên tươi đẹp, cây cối màu mỡ, xanh tốt, thực vật phong phú và đa dạng. Bởi thế mà không phải tự nhiên Nhật Bản được xếp vào Top 10 những đất nước
+            đẹp nhất thế giới.
+        </p>
+
+        <p id="p3" class="paragraph paragraph3">
+            Thế nhưng, cũng chính vì địa thế này mà mỗi năm Nhật Bản phải hứng chịu hàng trăm trận động đất, núi lửa phun trào và sóng thần lớn nhỏ. Vì những thiên tai này mà đất nước Nhật Bản đã tưởng như bị xóa sổ khỏi bản đồ. Nhưng với ý chí kiên cường, mạnh mẽ
+            và quyết tâm, người dân đất nước này đã chung tay xây dựng và giữ vững quê hương của mình.
+        </p>
+    </div>
+    <script>
+        // changeFontSize("32")
+
+        function changeFontSize(x) {
+            var a = document.getElementsByClassName("paragraph");
+            for (i = 0; i < a.length; i++) {
+                a[i].style.fontSize = x + "px";
+            };
+        }
+
+        /* function increaseFontSize(paragraph): Tăng kích thước font chữ của đoạn văn mong muốn(paragraph) 
+		lên 1 pixel so với kích thước hiện tại, kích thước tăng lên không được vượt quá 30 pixels
+		(Sử dụng sau khi gọi hàm changeFontSize()).*/
+
+        function increaseFontSize(n) {
+            var a = document.getElementsByClassName("paragraph");
+            var x = parseInt(a[n].style.fontSize.replace("px", ""));
+            if (x <= 30) {
+                x += 1;
+            }
+            a[n].style.fontSize = x + "px";
+
+        }
+
+        /*function decreaseFontSize(paragraph): Giảm kích thước font chữ của đoạn văn mong muốn (paragraph) 
+        xuống 1 pixels so với kích thước hiện tại, kích thước giảm xuống không vượt quá 10 pixels
+         (Sử dụng sau khi gọi hàm changeFontSize()).*/
+
+        function decreaseFontSize(n) {
+
+            var a = document.getElementsByClassName("paragraph");
+            var x = parseInt(a[n].style.fontSize.replace("px", ""));
+            if (x >= 10) {
+                x -= 1;
+            }
+            a[n].style.fontSize = x + "px";
+        }
+
+        // // // changeColor("blue", "yellow", "red")
+        function changeColor() {
+            var a = document.getElementById("p1");
+            var b = document.getElementById("p2");
+            var c = document.getElementById("p3");
+            a.style.color = "blue";
+            b.style.color = "yellow";
+            c.style.color = "red";
+        }
+
+        // changeBgColor("blue")
+        function changeBgColor(x) {
+            var a = document.getElementsByTagName("body");
+            a[0].style.backgroundColor = x;
+        }
+        // copyContent(0,1)
+        function copyContent(a, b) {
+            var a = document.getElementsByClassName("paragraph1");
+            var b = document.getElementsByClassName("paragraph2");
+            a[0].innerHTML = b[0].innerHTML;
+        }
+    </script>
+</body>
+
+</html>
