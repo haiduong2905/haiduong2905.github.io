@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <title>Bài tập Js</title>
+    <meta charset="UTF-8 ">
+    <style>
+        h5 {
+            text-decoration:underline;
+        }
+    </style>
+</head>
+    <body>
+        <h5>Bài 1:</h5>
+        <button onclick="currentTime()">Click here</button>
+        <p id="exercise1"></p>
+        <h5>Bài 2:</h5>
+        <p style="color: red">Gọi hàm count(a,b). Với a và b là 02 chuỗi truyền vào dạng "yyyy-mm-dd".</p>
+        <p id="exercise2"></p>
+        <h5>Bài 3:</h5>
+        <p style="color: red">Gọi hàm test(x,y). Với x và y là 2 tham số truyền vào.</p>
+        <p style="color: blue" id="exercise3"></p>
+        <h5>Bài 4:</h5>
+        <p style="color: red">Gọi hàm change(<span style="color: blue">tem</span>). Với
+            <span style="color: blue">tem</span> là độ C. </p>
+        <p style="color: blue" id="exercise4"></p>
+        <p id="exercise4"></p>
+        <h5>Bài 5:</h5>
+        <p style="color: red">Gọi hàm sum(x,y). Với x và y là 2 tham số truyền vào.</p>
+        <p id="exercise5"></p>
+        <h5>Bài 6:</h5>
+        <p style="color: red">Gọi hàm reverse(<span style="color: blue">num</span>). Với
+            <span style="color: blue">num</span> là một số. </p>
+        <p id="exercise6"></p>
+    </body>
+
+    <script>
+        // Bài số 1
+        function currentTime() {
+            var now = new Date();
+            var day = now.getDay();
+            var hour = now.getHours();
+            var minute = now.getMinutes();
+            var seconds = now.getSeconds();
+            var date = now.getDate();
+            var month = now.getMonth() + 1;
+            var year = now.getFullYear();
+
+            if (day == 0) {
+                result = "Sunday";
+            }
+
+            if (day == 1) {
+                result = "Monday";
+            }
+
+            if (day == 2) {
+                result = "Tuesday";
+            }
+
+            if (day == 3) {
+                result = "Wednesday";
+            }
+
+            if (day == 4) {
+                result = "Thursday";
+            }
+
+            if (day == 5) {
+                result = "Friday";
+            }
+
+            if (day == 6) {
+                result = "Saturday";
+            }
+
+            if (12<hour&&hour<24) {
+                 document.getElementById("exercise1").innerText = "Today is: " + result + " |<>| Current time is: " + (hour-12) + "PM: " + minute + "': " + seconds + "\'\'";
+            } 
+
+            if (0<=hour&&hour<=12) {
+                document.getElementById("exercise1").innerText = "Today is: " + result + " |<>|  Current time is: " + hour + "AM: " + minute + "': " + seconds + "\'\'";
+            }            
+           
+        }
+        // Bài số 2
+        function count(a, b) {
+            var x = new Date(a);
+            var y = new Date(b);
+            document.getElementById("exercise2").innerText =
+                "Hôm nay là ngày: " + x.getDate() + "/" + (x.getMonth() + 1) + "/" + x.getFullYear() + " .|| " + "Còn " + ((y - x)/86400000) + " ngày nữa là: " + y.getDate() + "/" + (y.getMonth() + 1) + "/" + y.getFullYear();
+        }
+
+
+        // Bài số 3
+        function test(num1, num2) {
+            document.getElementById("exercise3").innerText = "Tích 2 số truyền vào là: " + num1 + "*" + num2 + "=" + num1 * num2 + " || " + "Thương 2 số là: " + num1 + "/" + num2 + "=" + num1 / num2;
+        }
+
+        // Bài 4 Đổi độ C sang F
+        function change(tem) {
+            document.getElementById("exercise4").innerText = "Kết quả đổi " + tem + " độ C là: " + (tem * 1.8 + 32) + " độ F";
+        }
+
+        // Bài 5 
+        function sum(num1, num2) {
+            if (num1 != num2) {
+                document.getElementById("exercise5").innerText = "Tổng 2 số truyền vào là: " + (num1 + num2);
+            } else
+                document.getElementById("exercise5").innerText = "Tổng 2 số truyền vào là: " + 3 * (num1 + num2);
+        }
+
+        // Bài 6
+        function reverse(y) {
+            var x;
+            var res = "";
+            if (typeof y == "number") {
+                x = y.toString();
+                for (i = x.length; i >= 0; i--) {
+                    res += x[i];
+                }
+                document.getElementById("exercise6").innerText = "Đảo ngược của chuỗi " + y + " là: " + res;
+            } else {
+                document.getElementById("exercise6").innerText = "Chuỗi " + y + " bạn vừa nhập không phải là số.";
+            }
+
+        }
+    </script>
+
+</html>
