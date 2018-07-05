@@ -20,7 +20,7 @@ body {
 }
 
 .art {
-    height: 800px;
+    height: 900px;
     position: absolute;
 }
 
@@ -30,7 +30,6 @@ body {
 .menu_top_outside {
     position: absolute;
     width: 100%;
-    position: fixed;
 }
 
 .menu_top {
@@ -204,18 +203,28 @@ body {
     background: #f38181;
 }
 
+
+/*  */
+
 .content {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .intro {
-    height: 320px;
+    height: 200px;
     text-align: center;
     width: 85%;
     margin: 0 auto;
     padding: 50px 0;
     position: relative;
+}
+
+.intro_text {
+    height: 100px;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .intro_after {
@@ -227,7 +236,7 @@ body {
     width: 60px;
     height: 2px;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     background: #f38181;
     transform: translate(-50%, -50%);
@@ -241,7 +250,7 @@ body {
 /* Gallery */
 
 .gallery {
-    height: 300px;
+    height: 288px;
 }
 
 .over {
@@ -357,7 +366,6 @@ body {
 
 .intro_padding {
     padding-bottom: 0;
-    height: 200px;
 }
 
 .work_list_icon {
@@ -398,7 +406,7 @@ body {
 /*  */
 
 .work_list_row_2 {
-    height: 150px;
+    height: 350px;
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
