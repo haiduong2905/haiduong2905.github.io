@@ -11,7 +11,6 @@
 
     <div id="calc">
         <div id="result"></div>
-        <!-- // <input type="text" value="0" id="result"> -->
         <div id="math_1" class="row row_1">
             <button onclick="press(this)" value="(">(</button>
             <button onclick="press(this)" value=")">)</button>
@@ -57,12 +56,12 @@
     <script>
         function press(button) {
             var x = button.value;
-            document.getElementById("result").innerText += x;
+            document.getElementById("result").innerText +=x;
         }
 
         function math() {
             var y = eval(document.getElementById("result").innerText);
-            document.getElementById("result").innerText = y;
+            document.getElementById("result").innerText = y;           
         }
 
         function sqrt() {

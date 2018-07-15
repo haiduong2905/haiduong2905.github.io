@@ -23,9 +23,9 @@
         }
         // Bai 2
 
-        // * * * * *   i =1 , i<=5,i++ : a = 5,b=1
-        // *       *   i=2, i=5: a=5, b=2
-        // * * * * *   i=3, i<=5,i++: a=5, b=3
+        // * * * * *  
+        // *       *    
+        // * * * * *   
 
         function printEmptyRectangle(a, b) {
             str = "";
@@ -45,20 +45,21 @@
 
         // Bai 3
 
-        // ***** i=1,j=5
-        //  *** i=2, j=5-2
-        //   * i=3, j=5-4
-
-
-
-        str = "";
-        for (i = 1; i <= 3; i++) {
-            for (j = 1; j <= 5; j++) {
-                str += "*";
+         function printSpecialTrigangle(n) {
+ 			let str = "";
+            for (i = n; i >= 1; i=i-1) {
+            	for ( j = 1; j <= n-i; j++) {
+					str += "&nbsp";
+            	}
+            	for ( k = 1; k<=i; k++) {
+            		str += " * ";
+            	}
+            	str += "</br>";
             }
-            str += "</br>";
-        }
-        document.write(str);
+           
+            document.write(str);
+    //  
+	}
     </script>
 </body>
 

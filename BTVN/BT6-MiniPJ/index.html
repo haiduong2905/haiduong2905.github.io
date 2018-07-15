@@ -1,0 +1,179 @@
+<html>
+
+<head>
+    <title>Tech Robot STEM 2018</title>
+    <meta charset="UTF-8 ">
+    <link rel="stylesheet " href="style.css ">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="banner" id="banner">
+            <img src="banner.png">
+            <div class="welcome">
+                <p>28 July 2018, Ha Noi City</p>
+                <h1><span class="eff_text1">TECH</span> ROBOT STEM <span class="eff_text2">2018</span></h1>
+                <p class="welcome_active"><a href="#">REGISTRY</a></p>
+
+                <div class="countdown">
+                    <div class="countdown_row1">
+                        <div class="countdown_col1">DAYS</div>
+                    </div>
+                    <div class="countdown_row1">
+                        <div class="countdown_col2">HOURS</div>
+                    </div>
+                    <div class="countdown_row1">
+                        <div class="countdown_col3">MINUTES</div>
+                    </div>
+                    <div class="countdown_row1">
+                        <div class="countdown_col4">SECONDS</div>
+                    </div>
+                </div>
+
+                <div class="countdown">
+                    <div class="countdown_row2">
+                        <div id="day" class="countdown_col1"></div>
+                    </div>
+                    <div class="countdown_row2">
+                        <div id="hour" class="countdown_col2"></div>
+                    </div>
+                    <div class="countdown_row2">
+                        <div id="minute" class="countdown_col3"></div>
+                    </div>
+                    <div class="countdown_row2">
+                        <div id="second" class="countdown_col4"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="location">
+                Location: Bishub.vn, 142B De La Thanh, Dong Da Dist, Hanoi City (360 Xa Dan turns 10m)
+            </div>
+        </div>
+
+        <div class="menu_top_outside">
+            <div class="menu_top">
+                <div class="menu_top_logo">
+                    <a href="#"><img src="5.png"></a>
+                </div>
+                <div class="menu_top_list">
+                    <ul class="underlist">
+                        <div class="list">
+                            <li><a href="#">ABOUT US</a></li>
+                        </div>
+                        <div class="list">
+                            <li><a href="#">SPEAKERS</a></li>
+                        </div>
+                        <div class="list">
+                            <li><a href="#">EVENTS</a></li>
+                        </div>
+                        <div class="list list_active1">
+                            <li><a href="#">REGISTRY</a></li>
+                        </div>
+                        <div class="list list_active">
+                            <li><a href="#"><i class="fas fa-search"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_text">
+                <div class="intro">
+                    <h2 class="intro_after">ABOUT THIS EVENT</h2>
+                </div>
+                <div class="intro_text">
+                    <p>Children have to be educated, but they have also to be left to educate themselves.</p>
+                </div>
+            </div>
+
+            <div class="content_event">
+                <div class="content_event_row1 content_event_first">
+                    <a href="#"><img src="event-1.jpg"></a>
+                    <p class="content_event_color1">Time: 14h30-14h45</p>
+                    <p class="content_event_color2">Welcome guests</p>
+                    <p class="content_event_color3">
+                        <a href="#">View more</a>
+                    </p>
+                </div>
+                <div class="content_event_row1 content_event_second">
+                    <a href="#"><img src="event-2.jpg"></a>
+                    <p class="content_event_color1">Time: 14h45-15h15</p>
+                    <p class="content_event_color2">Programming Arduino using Scratch</p>
+                    <p class="content_event_color3">
+                        <a href="#">View more</a>
+                    </p>
+                </div>
+                <div class="content_event_row2 content_event_third">
+                    <a href="#"><img src="event-3.jpg"></a>
+                    <p class="content_event_color1">Time: 15h20-15h50</p>
+                    <p class="content_event_color2">Lego FIRST competition</p>
+                    <p class="content_event_color3">
+                        <a href="#">View more</a>
+                    </p>
+                </div>
+                <div class="content_event_row2 content_event_fourth">
+                    <a href="#"><img src="event-4.jpg"></a>
+                    <p class="content_event_color1">Time: 15h50-16h20</p>
+                    <p class="content_event_color2">How to do Airplane - Tank Modeling</p>
+                    <p class="content_event_color3">
+                        <a href="#">View more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content_contact">
+            <div class="content_text">
+                <div class="intro2">
+                    <h2 class="intro2_after">JOIN OUR EVENT</h2>
+                </div>
+                <div class="intro2_text">
+                    <p>"Children have to be educated, but they have also to be left to educate themselves."</p>
+                </div>
+                <div class="input">
+                    <input name="Your Email" class="content_contact_input" cols="50" rows="1" placeholder="Enter your Email"></input>
+                    <button><a href="#">Subscribe</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="back_to_top">
+            <a href="#banner"> <img src="arrow_up.png" alt="Back To Top"></a>
+        </div>
+    </div>
+    <script>
+        var countDownDate = new Date("July 28, 2018 14:30:00").getTime();
+        var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            if (days < 10) {
+                document.getElementById("day").innerHTML = "0" + days;
+            } else document.getElementById("day").innerHTML = days;
+            if (hours < 10) {
+                document.getElementById("hour").innerHTML = "0" + hours;
+            } else document.getElementById("hour").innerHTML = hours;
+            if (minutes < 10) {
+                document.getElementById("minute").innerHTML = "0" + minutes;
+            } else document.getElementById("minute").innerHTML = minutes;
+            if (seconds < 10) {
+                document.getElementById("second").innerHTML = "0" + seconds;
+            } else document.getElementById("second").innerHTML = seconds;
+
+            if (distance < 0) {
+                days = 0;
+                hours = 0;
+                minutes = 0;
+                seconds = 0;
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                    minutes + "m " + seconds + "s ";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>

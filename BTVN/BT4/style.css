@@ -394,7 +394,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     border-bottom: 1px solid #e5e5e5;
-    float: left;
 }
 
 .row_1 {
@@ -414,7 +413,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
-    float: left;
 }
 
 .row_2 {

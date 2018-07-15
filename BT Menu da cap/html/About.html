@@ -1,37 +1,116 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Trang chủ</title>
-	<meta charset="UTF-8"/>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../css/about.css">
-	<link rel="icon" type="image/png" href="../images/icon.png"/>
-</head> 
+    <title>Giới thiệu</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../images/icon.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+
 <body>
-	<div id="warp">
-		<div id="header">
-			<div id="logo">
-				<a href="#"><img src="../images/logo.png"></a>
-			</div>
-			<div id="menu">
-				<ul>
-					<li><a href="Home.html">Trang chủ</a></li>
-					<li><a href="About.html">Giới thiệu</a></li>
-					<li><a href="Menu.html">Thực đơn</a>
-						<ul>
-							<li><a href="Appetizer.html">Khai vị</a></li>
-							<li><a href="Seafood.html">Các món hải sản</a></li>
-							<li><a href="Hotpot.html">Các món lẩu</a></li>
-							<li><a href="Vegetables.html">Các món rau</a></li>
-							<li><a href="Drinks.html">Đồ uống</a></li>
-						</ul>
-					</li>
-					<li><a href="Sale.html">Khuyến mãi</a></li>
-					<li><a href="Contact.html">Liên hệ</a></li>
-				</ul> 
-			</div>
-		</div>
-		<p>Đang cập nhật</p>
-	</div>
+    <div class="wrap">
+        <div class="menu_top">
+            <div class="menu">
+                <div class="logo">
+                    <img src="../images/logo.png">
+                </div>
+                <div class="menu_list">
+                    <ul class="underlist">
+                        <div class="list">
+                            <li><a href="Home.html">Trang chủ</a></li>
+                        </div>
+                        <div class="list">
+                            <li><a href="About.html">Giới thiệu</a></li>
+                        </div>
+                        <div class="list">
+                            <li><a href="Menu.html">Thực đơn</a>
+                                <ul class="underlist_child">
+                                    <div class="list_child">
+                                        <li><a href="Appetizer.html">Khai vị</a></li>
+                                    </div>
+                                    <div class="list_child">
+                                        <li><a href="Seafood.html">Các món hải sản</a></li>
+                                    </div>
+                                    <div class="list_child">
+                                        <li><a href="Hotpot.html">Các món lẩu</a></li>
+                                    </div>
+                                    <div class="list_child">
+                                        <li><a href="Vegetables.html">Các món rau</a></li>
+                                    </div>
+                                    <div class="list_child">
+                                        <li><a href="Drinks.html">Đồ uống</a></li>
+                                    </div>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="list">
+                            <li><a href="Sale.html">Khuyến mãi</a></li>
+                        </div>
+                        <div class="list">
+                            <li><a href="Contact.html">Liên hệ</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="banner" class="banner">
+            <a href="#"><img src="../images/banner.jpg"></a>
+        </div>
+        <div class="content">
+            <p>Đang cập nhật</p>
+        </div>
+        <div class="footer_outside">
+            <div class="footer">
+                <div class="address">
+                    <p class="tag_title">ADDRESS</p>
+                    <div class="address_detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Số 123 - Đường Hùng Vương - Tp.Hà Nội</p>
+                    </div>
+                </div>
+
+                <div class="social">
+                    <p class="tag_title">FIND US ON</p>
+                    <div class="social_facebook">
+                        <i class="fab fa-facebook"></i>
+                        <p>Facebook/abc/123/</p>
+                    </div>
+
+                    <div class="social_twitter">
+                        <i class="fab fa-twitter"></i>
+                        <p>Twitter/abc/123/</p>
+                    </div>
+
+                    <div class="social_youtube">
+                        <i class="fab fa-youtube"></i>
+                        <p>Youtube/abc/123/</p>
+                    </div>
+                </div>
+
+                <div class="hotline">
+                    <p class="tag_title">HOT LINE </p>
+                    <div class="hotline_phone">
+                        <i class="fas fa-phone"></i>
+                        <p>19001009</p>
+                    </div>
+                    <div class="feedback">
+                        <p>FEEDBACK</p>
+                        <textarea placeholder="Góp ý giúp chúng tôi phục vụ tốt hơn..." cols="48" rows="3"></textarea>
+                        <button>Send</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copy_right">
+                <p>Copyright © 2017 Quan An Ngon All Rights Reserved || Designer by Abcxyz</p>
+            </div>
+        </div>
+    </div>
+    <div class="back_to_top">
+        <a href="#banner"> <img src="../images/arrow_up.png" alt="Back To Top"></a>
+    </div>
 </body>
+
 </html>

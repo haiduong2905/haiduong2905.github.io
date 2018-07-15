@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    <title>Quiz</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <audio autoplay src="VanNho.mp3"></audio>
+    <div id="wrap">
+        <div id="quiz" class="styleQuiz">
+            <h1>QUIZ</h1>
+
+            <hr>
+            <div id="content">
+                <h3 id="question" class="question"></h3>
+                <button id="answer_a" class="answer"></button>
+                <button id="answer_b" class="answer"></button>
+                <button id="answer_c" class="answer"></button>
+                <button id="answer_d" class="answer"></button>
+            </div>
+            <hr>
+            <div class="footer"> <i>Question x of y.</i> </div>
+        </div>
+    </div>
+    <script>
+        var question1 = {
+            question: "Câu 1. Thiết bị nào sau đây dùng để kết nối mạng?",
+            answer_A: "A. Ram",
+            answer_B: "B. Rom",
+            answer_C: "C. Router",
+            answer_D: "D. CPU",
+            correctAnswer: answer_C;
+        };
+        // "C"
+
+        var question2 = {
+            question: "Câu 2: Hệ thống nhớ của máy tính bao gồm:",
+            answer_A: "A. Bộ nhớ trong, Bộ nhớ ngoài",
+            answer_B: "B. Cache, Bộ nhớ ngoài",
+            answer_C: "C. Bộ nhớ ngoài, ROM",
+            answer_D: "D. Đĩa quang, Bộ nhớ trong",
+        };
+        // "A"
+
+        var question3 = {
+            question: "Câu 3: Trong mạng máy tính, thuật ngữ Share có ý nghĩa gì?",
+            answer_A: "A. Chia sẻ tài nguyên",
+            answer_B: "B. Nhãn hiệu của một thiết bị kết nối mạng",
+            answer_C: "C. Thực hiện lệnh in trong mạng cục bộ",
+            answer_D: "D. Một phần mềm hỗ trợ sử dụng mạng cục bộ",
+        };
+        // "A"
+
+        var question4 = {
+            question: "Câu 4. Bộ nhớ RAM và ROM là bộ nhớ gì?",
+            answer_A: "A. Primary memory",
+            answer_B: "B. Receive memory",
+            answer_C: "C. Secondary memory",
+            answer_D: "D. Random access memory",
+        };
+        // "A"
+
+        var question5 = {
+            question: "Câu 5. Các thiết bị nào thông dụng nhất hiện nay dùng để cung cấp dữ liệu cho máy xử lý?",
+            answer_A: "A. Bàn phím (Keyboard), Chuột (Mouse), Máy in (Printer)",
+            answer_B: "B. Máy quét ảnh(Scaner)",
+            answer_C: "C. Bàn phím (Keyboard), Chuột (Mouse) và Máy quét ảnh (Scaner)",
+            answer_D: "D. Máy quét ảnh(Scaner), Chuột(Mouse)",
+        };
+
+        // "C"
+
+        var question6 = {
+            question: "Câu 6. Khái niệm hệ điều hành là gì?",
+            answer_A: "A. Cung cấp và xử lý các phần cứng và phần mềm",
+            answer_B: "B. Nghiên cứu phương pháp, kỹ thuật xử lý thông tin bằng máy tính điện tử",
+            answer_C: "C. Nghiên cứu về công nghệ phần cứng và phần mềm",
+            answer_D: "D. Là một phần mềm chạy trên máy tính, dùng để điều hành, quản lý các thiết bị phần cứng và các tài nguyên phần mềm trên máy tính",
+        };
+
+        // "D"
+
+        var question7 = {
+            question: "Câu 7. Cho biết cách xóa một tập tin hay thư mục mà không di chuyển vào Recycle Bin:?",
+            answer_A: "A. Chọn thư mục hay tâp tin cần xóa - > Delete",
+            answer_B: "B. Chọn thư mục hay tâp tin cần xóa - > Ctrl + Delete",
+            answer_C: "C. Chọn thư mục hay tâp tin cần xóa - > Alt + Delete",
+            answer_D: "D. Chọn thư mục hay tâp tin cần xóa - > Shift + Delete",
+        };
+
+        // "D"
+
+        var question8 = {
+            question: "Câu 8. Danh sách các mục chọn trong thực đơn gọi là:",
+            answer_A: "A. Menu pad",
+            answer_B: "B. Menu options",
+            answer_C: "C.Menu bar",
+            answer_D: "D. Tất cả đều sai",
+        };
+
+        // "C"
+
+        var question9 = {
+            question: "Câu 9. Công dụng của phím Print Screen là gì ?",
+            answer_A: "A. In màn hình hiện hành ra máy in",
+            answer_B: "B. Không có công dụng gì khi sử dụng 1 mình nó.",
+            answer_C: "C. In văn bản hiện hành ra máy in",
+            answer_D: "D. Chụp màn hình hiện hành",
+        };
+
+        // "D"
+
+        var question10 = {
+            question: "Câu 10. Nếu bạn muốn làm cho cửa sổ nhỏ hơn(không kín màn hình), bạn nên sử dụng nút nào?",
+            answer_A: "A. Maximum",
+            answer_B: "B. Minimum",
+            answer_C: "C. Restore down",
+            answer_D: "D. Close",
+        };
+
+        // "C"
+
+        var question = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10];
+
+        var x = document.getElementById("question").innerText;
+        for (i = 0; i < question.length; i++) {
+            console.log(x[0]);
+        }
+    </script>
+
+</body>
+
+</html>
