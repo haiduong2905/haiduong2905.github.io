@@ -1,3 +1,5 @@
+// Đáp án lần lượt là: C, A, A, A, C, D, D, C, D, C.
+
 var question1 = {
     question: "Câu 1. Thiết bị nào sau đây dùng để kết nối mạng?",
     answer_A: "A. Ram",
@@ -41,10 +43,10 @@ var question4 = {
 var question5 = {
     question: "Câu 5. Các thiết bị nào thông dụng nhất hiện nay dùng để cung cấp dữ liệu cho máy xử lý?",
     answer_A: "A. Bàn phím (Keyboard), Chuột (Mouse), Máy in (Printer)",
-    answer_B: "B. Máy quét ảnh(Scaner)",
-    answer_C: "C. Bàn phím (Keyboard), Chuột (Mouse) và Máy quét ảnh (Scaner)",
-    answer_D: "D. Máy quét ảnh(Scaner), Chuột(Mouse)",
-    correctAnswer: "C. Bàn phím (Keyboard), Chuột (Mouse) và Máy quét ảnh (Scaner)",
+    answer_B: "B. Máy quét ảnh(Scanner)",
+    answer_C: "C. Bàn phím (Keyboard), Chuột (Mouse) và Máy quét ảnh (Scanner)",
+    answer_D: "D. Máy quét ảnh(Scanner), Chuột(Mouse)",
+    correctAnswer: "C. Bàn phím (Keyboard), Chuột (Mouse) và Máy quét ảnh (Scanner)",
 };
 
 // "C"
@@ -104,58 +106,82 @@ var question10 = {
 
 // "C"
 
-var question = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10];
+var arrQ = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10];
 var Q = document.getElementById("question");
 var a = document.getElementById("answer_a");
 var b = document.getElementById("answer_b");
 var c = document.getElementById("answer_c");
 var d = document.getElementById("answer_d");
 var x = 1;
-var y = question.length;
+var y = arrQ.length;
 var score = 0;
-Q.innerHTML = question[0].question;
-a.innerText = question[0].answer_A;
-b.innerText = question[0].answer_B;
-c.innerText = question[0].answer_C;
-d.innerText = question[0].answer_D;
-document.getElementById("footer").innerHTML = "Câu số " + x + "/" + y;
+Q.innerHTML = arrQ[0].question;
+a.innerText = arrQ[0].answer_A;
+b.innerText = arrQ[0].answer_B;
+c.innerText = arrQ[0].answer_C;
+d.innerText = arrQ[0].answer_D;
+document.getElementById("center").style.display = "none",
+    document.getElementById("result3").style.display = "none",
+    document.getElementById("footer").innerHTML = "<i>Câu số " + x + '/' + y + "</i>";
 for (var btnAnswer = document.getElementsByClassName("answer"), i = 0; i < btnAnswer.length; i++) btnAnswer[i].addEventListener("click", function() {
-    if (this.innerText == arr[x - 1].correctAnswer && (score += 1),
-        console.log(this.innerText),
-        score < arr.length) Q.innerHTML = "Câu số " + (x + 1) + ":",
-        Q.innerHTML = arr[x].question,
-        a.innerHTML = arr[x].answer_A,
-        b.innerHTML = arr[x].answer_B,
-        c.innerHTML = arr[x].answer_C,
-        d.innerHTML = arr[x].answer_D,
-        document.getElementById("footer").innerHTML = "Câu số " + x + "/" + y;
+    if (this.innerText == arrQ[x - 1].correctAnswer && (score += 1), console.log(this.innerText), x < arrQ.length)
+        Q.innerHTML = arrQ[x].question,
+        a.innerHTML = arrQ[x].answer_A,
+        b.innerHTML = arrQ[x].answer_B,
+        c.innerHTML = arrQ[x].answer_C,
+        d.innerHTML = arrQ[x].answer_D,
+        document.getElementById("footer").innerHTML = "<i>Câu số " + (x + 1) + "/" + y + "</i>";
     else if (10 == score) window.location.href = "win.html";
     else {
-        document.getElementById("question").style.display = "none",
-            document.getElementById("answer").style.display = "none",
+        document.getElementById("result3").style.display = "",
+            document.getElementById("center").style.display = "",
+            document.getElementById("question").style.display = "none",
+            document.getElementById("hr").style.display = "none",
+            document.getElementById("content").style.display = "none",
             document.getElementById("footer").style.display = "none",
-            document.getElementById("result1").innerHTML = "<h1>You lose!</h1>";
-        for (var e = 0; e < score; e++) document.getElementById("result2").innerHTML += "<img src='image/success-icon.png' style='width:50px' />";
-        document.getElementById("result3").innerHTML = "<button id='back' onclick='clickBtnBack()'>Play Again</button>"
+            document.getElementById("result2").innerHTML = "<h2>You lose!</h2>";
+        for (var z = 0; z < score; z++)
+            document.getElementById("result1").innerHTML = "<h4>Bạn trả lời đúng:" + z + "/" + y + "</h4>";
+        document.getElementById("result3").innerHTML = "Do you want play again?";
+        document.getElementById("result4").innerHTML = "<button id='back' onclick='clickYes()'>Yes</button>";
+        document.getElementById("result5").innerHTML = "<button id='back' onclick='clickNo()'>No</button>";
     }
-    temp += 1, console.log(temp)
+    x += 1, console.log(x)
 
 });
 
-function clickBtnBack() {
-    document.getElementById("result1").innerHTML = "",
+function clickNo() {
+    document.getElementById("question").style.display = "none",
+        document.getElementById("hr").style.display = "none",
+        document.getElementById("result1").innerHTML = "",
         document.getElementById("result2").innerHTML = "",
-        document.getElementById("result3").innerHTML = "",
-        document.getElementById("answer").style.display = "block",
+        document.getElementById("result3").style.display = "none",
+        document.getElementById("center").style.display = "none",
+        document.getElementById("result4").innerHTML = "",
+        document.getElementById("result5").innerHTML = "",
+        document.getElementById("content").style.display = "none",
+        document.getElementById("footer").style.display = "none",
+        document.getElementById("result2").innerHTML = "<h2>Go away!</h2>";
+}
+
+function clickYes() {
+    document.getElementById("question").style.display = "block",
+        document.getElementById("hr").style.display = "block",
+        document.getElementById("result1").innerHTML = "",
+        document.getElementById("result2").innerHTML = "",
+        document.getElementById("result3").style.display = "none",
+        document.getElementById("result4").innerHTML = "",
+        document.getElementById("result5").innerHTML = "",
+        document.getElementById("center").style.display = "none",
+        document.getElementById("content").style.display = "block",
         document.getElementById("footer").style.display = "block",
         x = 1,
         score = 0,
         console.log(x),
-
-        Q.innerHTML = arr[0].question,
-        a1.innerHTML = arr[0].choose1,
-        a2.innerHTML = arr[0].choose2,
-        a3.innerHTML = arr[0].choose3,
-        a4.innerHTML = arr[0].choose4,
-        foot.innerHTML = "<p class='foot'>Câu số " + temp + " / " + arr.length + "</p>"
+        Q.innerHTML = arrQ[0].question,
+        a.innerHTML = arrQ[0].answer_A,
+        b.innerHTML = arrQ[0].answer_B,
+        c.innerHTML = arrQ[0].answer_C,
+        d.innerHTML = arrQ[0].answer_D,
+        document.getElementById("footer").innerHTML = "<i>Câu số " + x + "/" + y + "</i>";
 }
