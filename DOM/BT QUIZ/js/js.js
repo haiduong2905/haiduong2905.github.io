@@ -122,7 +122,7 @@ c.innerText = arrQ[0].answer_C;
 d.innerText = arrQ[0].answer_D;
 document.getElementById("center").style.display = "none",
     document.getElementById("result3").style.display = "none",
-    document.getElementById("footer").innerHTML = "<i>Câu số " + x + '/' + y + "</i>";
+    document.getElementById("footer").innerHTML = "<i>Number: " + x + '/' + y + "</i>";
 for (var btnAnswer = document.getElementsByClassName("answer"), i = 0; i < btnAnswer.length; i++) btnAnswer[i].addEventListener("click", function() {
     if (this.innerText == arrQ[x - 1].correctAnswer && (score += 1), console.log(this.innerText), x < arrQ.length)
         Q.innerHTML = arrQ[x].question,
@@ -130,7 +130,7 @@ for (var btnAnswer = document.getElementsByClassName("answer"), i = 0; i < btnAn
         b.innerHTML = arrQ[x].answer_B,
         c.innerHTML = arrQ[x].answer_C,
         d.innerHTML = arrQ[x].answer_D,
-        document.getElementById("footer").innerHTML = "<i>Câu số " + (x + 1) + "/" + y + "</i>";
+        document.getElementById("footer").innerHTML = "<i>Number: " + (x + 1) + "/" + y + "</i>";
     else if (10 == score) window.location.href = "win.html";
     else {
         document.getElementById("result3").style.display = "",
@@ -141,7 +141,7 @@ for (var btnAnswer = document.getElementsByClassName("answer"), i = 0; i < btnAn
             document.getElementById("footer").style.display = "none",
             document.getElementById("result2").innerHTML = "<h2>You lose!</h2>";
         for (var z = 0; z < score; z++)
-            document.getElementById("result1").innerHTML = "<h4>Bạn trả lời đúng:" + z + "/" + y + "</h4>";
+            document.getElementById("result1").innerHTML = "<h4>You are right: " + z + "/" + y + "</h4>";
         document.getElementById("result3").innerHTML = "Do you want play again?";
         document.getElementById("result4").innerHTML = "<button id='back' onclick='clickYes()'>Yes</button>";
         document.getElementById("result5").innerHTML = "<button id='back' onclick='clickNo()'>No</button>";
@@ -183,5 +183,5 @@ function clickYes() {
         b.innerHTML = arrQ[0].answer_B,
         c.innerHTML = arrQ[0].answer_C,
         d.innerHTML = arrQ[0].answer_D,
-        document.getElementById("footer").innerHTML = "<i>Câu số " + x + "/" + y + "</i>";
+        document.getElementById("footer").innerHTML = "<i>Number: " + x + "/" + y + "</i>";
 }

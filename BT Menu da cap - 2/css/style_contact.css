@@ -1,0 +1,14 @@
+/*Content*/
+
+img {
+    width: 100%;
+}
+
+.underlist .list:nth-child(5) {
+    background: #eae6de;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

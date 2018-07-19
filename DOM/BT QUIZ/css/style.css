@@ -4,12 +4,12 @@
 
 body {
     margin: 0 auto;
-    background-image: url(/picture/1.png);
+    background-image: url(../picture/1.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-#wrap {
+.wrap {
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 50px;
@@ -50,9 +50,10 @@ hr {
 .question {
     padding-left: 20px;
     text-align: center;
+    color: #fff;
 }
 
-#content {
+.content {
     width: 90%;
     margin: 0 auto;
     height: 200px;
@@ -63,8 +64,8 @@ hr {
     text-align: left;
     font-size: 16px;
     width: 45%;
-    margin: 1% 2.5%;
-    height: 60px;
+    margin: 2.5%;
+    height: 65px;
     float: left;
     padding-left: 30px;
     border: 1px solid rgb(202, 202, 202);
@@ -83,7 +84,7 @@ button {
     background: rgba(45, 155, 206, 0.2)
 }
 
-#footer {
+.footer {
     width: 15%;
     background: rgba(207, 207, 207, 0.5);
     font-size: 18px;
@@ -132,21 +133,21 @@ button {
     position: relative;
 }
 
-#result0 img {
+.result0 img {
     width: 50%;
 }
 
-#result1 h4 {
+.result1 h4 {
     font-size: 20px;
-    color: red;
+    color: rgb(90, 37, 37);
     text-align: center;
 }
 
-#result2 {
+.result2 {
     padding-bottom: 20px;
 }
 
-#result3 {
+.result3 {
     padding: 20px 0;
     font-size: 20px;
     text-align: center;
@@ -161,7 +162,7 @@ button {
     height: 50px;
 }
 
-#result4 {
+.result4 {
     margin: 0 2.5% 0 5%;
     float: left;
     width: 40%;
@@ -169,7 +170,7 @@ button {
     text-align: center;
 }
 
-#result5 {
+.result5 {
     margin: 0 5% 0 2.5%;
     float: left;
     width: 40%;
@@ -177,7 +178,7 @@ button {
     text-align: center;
 }
 
-#result4 button {
+.result4 button {
     width: 100%;
     font-size: 20px;
     background: linear-gradient(#fff, #ccc);
@@ -190,7 +191,7 @@ button {
     -o-border-radius: 10px;
 }
 
-#result5 button {
+.result5 button {
     width: 100%;
     font-size: 20px;
     background: linear-gradient(#fff, #ccc);
@@ -203,10 +204,10 @@ button {
     -o-border-radius: 10px;
 }
 
-#result5 button:hover {
+.result5 button:hover {
     background: rgb(167, 166, 166);
 }
 
-#result4 button:hover {
+.result4 button:hover {
     background: rgb(167, 166, 166);
 }

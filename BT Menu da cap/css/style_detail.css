@@ -1,0 +1,84 @@
+.content_food {
+    padding: 50px 0;
+    height: 425px;
+}
+
+.effect_img {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+img {
+    padding: 1px;
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: block;
+}
+
+img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.detail {
+    width: 60%;
+    float: left;
+    padding: 5px 50px;
+}
+
+.describe p:nth-child(1) {
+    color: #c82b2e;
+    font-size: 20px;
+}
+
+.describe p:nth-child(2) {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.detail_price {
+    color: #c82b2e;
+    font-size: 20px;
+    width: 30%;
+    float: left;
+}
+
+.detail_select {
+    margin: 15px 0;
+    background: #c82b2e;
+    font-size: 20px;
+    width: 18%;
+    float: left;
+    text-align: center;
+    border: 1px solid #c82b2e;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.detail_select p {
+    margin: 0;
+    padding: 5px;
+}
+
+.detail_select a {
+    color: #fff;
+    margin: 0;
+    text-decoration: none;
+}

@@ -1,0 +1,38 @@
+/*Content*/
+
+.menu_top {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 80px;
+}
+
+.content_menu_title p:nth-child(2) {
+    background: #b12126;
+}
+
+.content_menu_title p:nth-child(2) a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.content_row_3 {
+    width: 100%;
+    float: left;
+    padding: 25px 0 50px 0;
+}
+
+.content_row_3 img {
+    width: 100%;
+}
+
+.content_row3 {
+    background: #fff;
+    overflow: hidden;
+    width: 32%;
+    float: left;
+    box-shadow: 2px 2px 2px 2px rgb(226, 226, 226);
+}
+
+.content_row3_col2 {
+    margin: 0 2%;
+}
