@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url(../picture/1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.styleQuiz {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px #b3b3b3;
+    height: 450px;
+}
+
+.styleQuiz h1 {
+    background: linear-gradient(#fff, #ccc);
+    height: 50px;
+    line-height: 50px;
+    width: 40%;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+hr {
+    margin: 20px 0;
+    clear: left;
+}
+
+.question {
+    padding-left: 20px;
+    text-align: center;
+    color: rgb(102, 101, 101);
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.answer {
+    background: linear-gradient(hsla(240, 100%, 100%, 0.5), rgba(11, 139, 199, 0.342));
+    text-align: left;
+    font-size: 16px;
+    width: 45%;
+    margin: 2.5%;
+    height: 65px;
+    float: left;
+    padding-left: 30px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+button {
+    background: rgba(167, 167, 167, 0);
+}
+
+.answer:hover {
+    background: rgba(45, 155, 206, 0.2)
+}
+
+.styleQuiz h2 {
+    background: linear-gradient(#fff, #ccc);
+    height: 50px;
+    line-height: 50px;
+    width: 30%;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    box-shadow: 1px 1px 2px 2px #b3b3b3;
+    color: red;
+    animation: color 0.3s ease-in-out infinite;
+    -webkit-animation: color 0.3s ease-in-out infinite;
+}
+
+@keyframes color {
+    from {
+        color: red;
+    }
+    to {
+        color: white;
+    }
+}
+
+.styleQuiz {
+    position: relative;
+}
+
+.result0 img {
+    width: 50%;
+}
+
+.result1 h4 {
+    font-size: 20px;
+    color: rgb(90, 37, 37);
+    text-align: center;
+}
+
+.result2 {
+    padding-bottom: 20px;
+}
+
+.result3 {
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.center {
+    width: 15%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.result4 {
+    margin: 0 2.5% 0 5%;
+    float: left;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.result5 {
+    margin: 0 5% 0 2.5%;
+    float: left;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.result4 button {
+    width: 100%;
+    font-size: 20px;
+    background: linear-gradient(#fff, #ccc);
+    border: 1px solid #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.result5 button {
+    width: 100%;
+    font-size: 20px;
+    background: linear-gradient(#fff, #ccc);
+    border: 1px solid #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.result5 button:hover {
+    background: rgb(167, 166, 166);
+}
+
+.result4 button:hover {
+    background: rgb(167, 166, 166);
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    float: left;
+    width: 15%;
+    background: rgba(207, 207, 207, 0.5);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    margin: 0 0 5px 5px;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    display: inline;
+}
+
+.change button {
+    display: inline;
+    width: 15%;
+    background: rgba(207, 207, 207, 0.5);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    margin: 0 0 5px 5px;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    float: right;
+}
