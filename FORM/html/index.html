@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Regestry form</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="form_outside">
+            <div class="title">
+                <p>Đăng ký tài khoản</p>
+            </div>
+            <div class="form_regestry">
+                <div class="left"></div>
+                <form action="success.html" method="get">
+                    <div class="content">
+                        <label for="name"><span>Tên bạn</span></label><br>
+                        <input type="text" id="name" name="name" placeholder="Họ tên"><br>
+                        <label for="email"><span>Email của bạn</span></label><br>
+                        <input type="text" id="email" name="email" placeholder="Địa chỉ email"><br>
+                        <label for="birthday"><span>Ngày, tháng, năm sinh của bạn</span></label><br>
+                        <div class="select_day">
+                            <select id="birthday" name="birthday">
+                                <!-- Js chọn ngày-->
+                                <option value = 'Ngày' id = 'day'>Ngày</option>
+                            </select>
+                            <select id="birthmonth" name="birthmonth"> 
+                                    <!-- Js chọn tháng-->
+                                    <option value = 'Tháng' id = 'month'>Tháng</option>
+                            </select>
+                            <select id="birthyear" name="birthyear">
+                                    <!-- //Js chọn năm -->
+                                    <option value = 'Năm' id = 'year'>Năm</option>
+                            </select>
+                        </div>
+                        <label for="gender">Giới tính</label><br>
+                        <div class="select_gender">
+                            <input type="radio" name="gender" value="male"><label>Nam</label>
+                            <input type="radio" name="gender" value="female"><label>Nữ</label>
+                            <input type="radio" name="gender" value="other"><label>Khác</label>
+                        </div>
+                        <label for="id">Tên đăng nhập <span></span></label><br>
+                        <input type="text" id="id" name="id" placeholder="Chữ, số và không bao gồm ký tự đặc biệt"><br>
+                        <label for="password">Mật khẩu <span></span></label><br>
+                        <input type="password" id="password" name="password" placeholder="Mật khẩu từ 6 đến 32 ký tự"><br>
+                        <label for="repeat-password">Nhập lại mật khẩu <span></span></label><br>
+                        <input type="password" id="repeat-password" name="repeat-password" placeholder="Nhập lại mật khẩu"><br>
+                    </div>
+                    <div class="submit">
+                        <input id="submit" type="submit" value="Đăng ký ">
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="../js/jquery-3.3.1.min.js "></script>
+    <script src="../js/js.js "></script>
+</body>
+
+</html>

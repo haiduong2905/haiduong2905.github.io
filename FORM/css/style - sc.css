@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrap {
+    font-size: 16px;
+}
+
+.title {
+    width: 100%;
+    background: hsla(209, 85%, 64%, 0.884);
+}
+
+.title p {
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.info_outside {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info_user {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.info_user h2 {
+    color: rgb(4, 40, 245);
+    text-align: center;
+}
+
+.info_user span {
+    color: rgb(4, 40, 245);
+    font-size: 16px;
+}

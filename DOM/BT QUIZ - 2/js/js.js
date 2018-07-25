@@ -135,7 +135,8 @@ for (var btnAnswer = $('.answer'), i = 0; i < btnAnswer.length; i++)
             $("#footer").html("<i>Number: " + (x + 1) + "/" + y + "</i>");
         else if (score == 10) window.location.href = "win.html";
         else {
-            $("#result3").css("display", ""),
+            $("#change").css("display", "none"),
+                $("#result3").css("display", ""),
                 $("#center").css("display", ""),
                 $("#question").css("display", "none"),
                 $("hr").css("display", "none"),
@@ -168,7 +169,8 @@ function clickNo() {
 };
 
 function clickYes() {
-    $("#question").css("display", "block"),
+    $("#change").css("display", "block"),
+        $("#question").css("display", "block"),
         $("hr").css("display", "block"),
         $("#result1").html(""),
         $("#result2").html(""),
@@ -192,8 +194,14 @@ function clickYes() {
 
 function changeTheme() {
     $('body').css('background-image', 'url(../picture/3.jpg)')
-    $('.answer').css('background-color', 'rgba(212, 209, 209,0.6')
-    $('.answer').css('background-color', 'rgba(212, 209, 209,0.6')
-    $('#quiz > h1').css('background', 'rgba(100, 100, 100,0.6')
-    $('#quiz > h1').css('color', '#fff')
+    let a = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
+    let c = Math.floor(Math.random() * 255);
+    let d = Math.random();
+    let bgColor = "rgba(" + a + "," + b + "," + c + "," + d + ")"
+    console.log(bgColor);
+    $('.answer').css('background-color', bgColor)
+    $('.answer').css('background-color', bgColor)
+    $('#quiz > h1').css('background', bgColor)
+    $('html').css('background-color', bgColor);
 }
