@@ -15,39 +15,42 @@
             </div>
             <div class="form_regestry">
                 <div class="left"></div>
-                <form action="success.html" method="get">
+                <form id="form_regestry" action="success.html" method="get">
                     <div class="content">
                         <label for="name"><span>Tên bạn</span></label><br>
-                        <input type="text" id="name" name="name" placeholder="Họ tên"><br>
+                        <input type="text" id="name" name="name" placeholder="Họ tên"><span class="error"></span><br>
+                        <label for="name"><span>Số điện thoại</span></label><br>
+                        <input type="text" id="number_phone" name="name" placeholder="Gồm 10 hoặc 11 số"><span class="error"></span><br>
+                        <label for="name"><span>Địa chỉ Facebook</span></label><br>
+                        <input type="text" id="facebook" name="name" placeholder="www.facebook.com/namefb"><span class="error"></span><br>
                         <label for="email"><span>Email của bạn</span></label><br>
-                        <input type="text" id="email" name="email" placeholder="Địa chỉ email"><br>
+                        <input type="text" id="email" name="email" placeholder="Địa chỉ email"><span class="error"></span><br>
                         <label for="birthday"><span>Ngày, tháng, năm sinh của bạn</span></label><br>
                         <div class="select_day">
                             <select id="birthday" name="birthday">
-                                <!-- Js chọn ngày-->
-                                <option value = 'Ngày' id = 'day'>Ngày</option>
+                                <!-- Js chọn ngày-->  
                             </select>
                             <select id="birthmonth" name="birthmonth"> 
-                                    <!-- Js chọn tháng-->
-                                    <option value = 'Tháng' id = 'month'>Tháng</option>
+                                    <!-- Js chọn tháng-->    
                             </select>
                             <select id="birthyear" name="birthyear">
-                                    <!-- //Js chọn năm -->
-                                    <option value = 'Năm' id = 'year'>Năm</option>
+                                    <!-- //Js chọn năm -->       
                             </select>
+                            <span class="error"></span>
                         </div>
                         <label for="gender">Giới tính</label><br>
                         <div class="select_gender">
-                            <input type="radio" name="gender" value="male"><label>Nam</label>
-                            <input type="radio" name="gender" value="female"><label>Nữ</label>
-                            <input type="radio" name="gender" value="other"><label>Khác</label>
+                            <input id="male" type="radio" name="gender" value="male">Nam
+                            <input id="female" type="radio" name="gender" value="female">Nữ
+                            <input id="other" type="radio" name="gender" value="other">Khác
+                            <span class="error"></span>
                         </div>
-                        <label for="id">Tên đăng nhập <span></span></label><br>
-                        <input type="text" id="id" name="id" placeholder="Chữ, số và không bao gồm ký tự đặc biệt"><br>
+                        <label for="id">Tên đăng nhập</label><br>
+                        <input type="text" id="id" name="id" placeholder="Có thể dùng chữ hoa, số và không bao gồm ký tự đặc biệt"><span class="error"></span><br>
                         <label for="password">Mật khẩu <span></span></label><br>
-                        <input type="password" id="password" name="password" placeholder="Mật khẩu từ 6 đến 32 ký tự"><br>
-                        <label for="repeat-password">Nhập lại mật khẩu <span></span></label><br>
-                        <input type="password" id="repeat-password" name="repeat-password" placeholder="Nhập lại mật khẩu"><br>
+                        <input type="password" id="password" name="password" placeholder="Mật khẩu từ 6 đến 32 ký tự"><span class="error"></span><br>
+                        <label for="repeat-password">Nhập lại mật khẩu</label><br>
+                        <input type="password" id="repeat-password" name="repeat-password" placeholder="Nhập lại mật khẩu"><span class="error"></span><br>
                     </div>
                     <div class="submit">
                         <input id="submit" type="submit" value="Đăng ký ">
