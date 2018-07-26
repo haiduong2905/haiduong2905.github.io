@@ -39,11 +39,15 @@ var success = {
     Password: data[7],
 }
 
-
-
 $('.info_user').append('<h4>Name: <span>' + success['name'] + '</span></h4>');
 $('.info_user').append('<h4>Email: <span>' + success['email'] + '</span></h4>');
 $('.info_user').append('<h4>Ngày sinh: <span>' + success['Birthday'] + '</span></h4>');
 $('.info_user').append('<h4>Giới tính: <span>' + success['Gender'] + '</span></h4>');
 $('.info_user').append('<h4>Tên đăng nhập: <span>' + success['Id'] + '</span></h4>');
 $('.info_user').append('<h4>Mật khẩu: <span>' + success['Password'] + '</span></h4>');
+
+// Validate
+
+$('.form_regestry').on('submit', function() {
+
+});
