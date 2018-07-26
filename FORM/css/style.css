@@ -99,7 +99,6 @@ body {
 .submit input {
     font-size: 18px;
     background: linear-gradient(#79bc64, #578843);
-    border: 1px solid #ccc;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;

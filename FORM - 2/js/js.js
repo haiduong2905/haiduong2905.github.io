@@ -71,7 +71,7 @@ $(function() {
             $('#number_phone').next('span').text('');
         }
         // Facebook
-        if ($('#facebook').val().match(/(?:www.)?facebook.com\/(?:(?:\w)*#!\/)?(?:pages\/)?(?:[\w\-]*\/)*([\w\-]*)/) == null) {
+        if ($('#facebook').val().match(/(?:http:\/\/)?(?:www.)?facebook.com\/(?:(?:\w)*#!\/)?(?:pages\/)?(?:[\w\-]*\/)*([\w\-]*)/) == null) {
             $('#facebook').next('span').text('Điền địa chỉ Facebook của bạn');
             isValid = false;
         } else {
