@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	max-width: 1000px;
+	background-color: grey;
+	margin: auto;
+}
+#warp{
+	max-width: 1000px;
+
+}
+#content-1{
+	background-color: white;
+
+}
+
+img{
+	max-height: 33.33%;
+	max-width: 33.33%;
+
+}
+.clear {
+	clear: both;
+}
+#content-2{
+	background-color: white;
+
+}

@@ -1,0 +1,11 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+img {
+	max-width: 300px;
+	max-height: 300px;
+}

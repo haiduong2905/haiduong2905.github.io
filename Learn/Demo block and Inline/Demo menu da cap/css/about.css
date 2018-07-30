@@ -1,0 +1,18 @@
+
+.aomu, .aoarsenal, .aochelsea, .aobarca, .aoreal {
+	max-width: 33.33%;
+	margin: 0 auto;
+	padding: 15px;
+	float: left;
+}
+
+#content img {
+	max-width: 100%;
+	display: block;
+	border: 1px solid #c9bfbf;
+	box-shadow: 3px 6px #777; 
+}
+#content img:hover {
+	transform: translateY(-8px);
+
+}

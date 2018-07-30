@@ -1,0 +1,97 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.menu_top {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.list {
+    font-size: 20px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.menu_top {
+    display: flex;
+}
+
+.list {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.list1 {
+    font-size: 30px;
+    flex-grow: 5;
+    text-align: left;
+}
+
+.wrap {
+    max-width: 100%;
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.welcome {
+    padding: 50px 0;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.menu_bottom {
+    max-width: 1200px;
+    display: flex;
+}
+
+.list_bottom {
+    padding: 20px 0;
+    font-size: 20px;
+    width: 22%;
+    border-top: 2px solid #fff;
+}
+
+.list_bottom_list2 {
+    margin: 0 2% 0 4%;
+}
+
+.list_bottom_list3 {
+    margin: 0 4% 0 2%;
+}
+
+.banner {
+    width: 100%;
+    background: linear-gradient(rgb(107, 106, 106), rgb(207, 162, 36));
+    height: 900px;
+    position: absolute;
+    z-index: -1;
+}
+
+.banner img {
+    z-index: -2;
+    opacity: 0.2;
+}
+
+.welcome_title {
+    font-size: 30px;
+}
+
+.welcome_active {
+    font-size: 50px;
+    padding: 50px 0;
+}
+
+.welcome_more {
+    width: 20%;
+    height: 50px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

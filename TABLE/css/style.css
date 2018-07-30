@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+i {
+    float: right;
+}
+
+.number i:nth-child(2) {
+    position: relative;
+    left: 12.5%;
+}
+
+.product_code i:nth-child(2) {
+    position: relative;
+    left: 6%;
+}
+
+.product i:nth-child(2) {
+    position: relative;
+    left: 4.5%;
+}
+
+.product_name i:nth-child(2) {
+    position: relative;
+    left: 4.5%;
+}
+
+.price i:nth-child(2) {
+    position: relative;
+    left: 4.5%;
+}
+
+.quantity i:nth-child(2) {
+    position: relative;
+    left: 6%;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    color: rgb(61, 61, 61);
+}
+
+img {
+    width: 30%;
+}
+
+img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    border: 2px solid #888888;
+}
+
+td {
+    border: 1px solid #888888;
+    text-align: center;
+    padding: 8px;
+    overflow: hidden;
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+    width: 20%;
+    font-size: 16px;
+    border: 2px solid #888888;
+}
+
+.active:hover {
+    background: #fff;
+}
+
+th:nth-child(1) {
+    width: 8%;
+}
+
+th:nth-child(2) {
+    width: 15%;
+}
+
+th:nth-child(3) {
+    width: 20%;
+}
+
+th:nth-child(6) {
+    width: 15%;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+thead {
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma;
+	font-size: 13px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu {
+	background: #000;
+	height: 40px;
+}
+
+#menu ul{
+	padding: 0;
+	margin: 0;
+}
+
+#menu ul li{
+	list-style-type: none;
+	float: left;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	padding: 0 20px 0 20px;
+	border-right: 1px solid #aaa;
+}
+
+#menu ul li a.active{
+	background-color: #19b519;
+}
+
+#banner {
+	height: auto;
+	width: 1000px;
+}
+
+#banner img {
+	width: 1000px;
+	display: block;
+}
+
+#main {
+	padding: 10px 0;
+}
+
+
+#main #left {
+	width: 700px;
+	float: left;
+}
+
+#main #left ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main #left ul li {
+	list-style-type: none;
+	clear: left;
+	border-bottom: 2px solid #ccc;
+	float: left;
+	width: 700px;
+	padding: 10px 0;
+}
+
+#main #left ul li img {
+	float: left;
+	margin: 0 10px 0 0;
+
+}
+
+#main #left ul li h2 {
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+#main #right {
+	width: 300px;
+	float: left;
+	min-height: 300px;
+	border: 1px solid #111;
+	padding: 0;
+	margin: 0;
+
+}
+
+#main #right ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+#main #right ul li{
+	list-style-type: none;
+
+}
+
+
+#main #right .menu_right h3 {
+	color: white;
+	background: #95aadf url(../images/iconmenu.png) no-repeat ;
+	text-indent: 35px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+}
+
+#main #right .menu_right li{
+	text-indent: 20px;
+	border-bottom: 1px solid #222;
+	line-height: 35px;
+	background: #eee url(../images/iconmenu.png) no-repeat;
+	padding: 0;
+	margin: 0;
+	text-indent: 35px;
+}
+
+#footer {
+	clear:left;
+	background: #000;
+	width: 1000px;
+	text-align: center;
+	height: 60px;
+	color: #fff;
+	line-height: 60px;
+}

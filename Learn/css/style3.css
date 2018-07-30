@@ -1,0 +1,6 @@
+p::first-line {
+	font-size: 30px;
+	}
+b.money::after {
+	content: " USD";
+	}
