@@ -19,12 +19,12 @@ $(function() {
     function flip(card) {
         $(cards).toggleClass('flipped');
     };
-    $(function loadCard(arr) {
+    $(function () {
         cards = cards.concat(cards);
         cards = shuffle(cards);
         let html = '';
         for (let i = 0; i < cards.length; i++) {
-            html += '<div class = "grid">' + '<div class = "card" data-name="' + cards[i] + '">' + '<div class = "front">' +
+            html += '<div class = "grid">' + '<div class = "card" data-name="' + cards[i] + '"onclick="flip(this)">' + '<div class = "front">' +
                 '<img src = "../image/7/' + cards[i] + '.jpg">' + '</div> ' + '<div class = "back">' + '<img src = "../image/7/back3.jpg ">' + '</div></div> </div >';
         }
         $('.content').html(html);

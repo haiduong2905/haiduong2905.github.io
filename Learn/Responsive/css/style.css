@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.respon {
+    width: 1000px;
+    background-color: red;
+    height: 250px;
+}
+
+@media (min-width:500px) {
+    .respon {
+        background-color: blue;
+    }
+}
