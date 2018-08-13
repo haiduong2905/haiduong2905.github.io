@@ -11,7 +11,7 @@ $(function() {
             } else {
                 $('.back-to-top').css('opacity', '0')
             }
-            if ($('html').scrollTop() > 630) {
+            if ($('html').scrollTop() > 1750) {
                 $('.back-to-top').css('background-color', 'rgba(227, 227, 227, 0.411)')
             } else {
                 $('.back-to-top').css('background-color', 'rgba(27, 27, 27, 0.411)')
@@ -20,6 +20,11 @@ $(function() {
         // Back to top ==0
     $('.back-to-top').click(function() {
         $('body').animate({ 'scrollTop': 0 });
+    });
+
+    $('.hotline-tag').click(function() {
+        $('.hotline').toggle();
+        $('.hotline-tag').addClass('rotate');
     });
     // Strim length
     $('.news-title a').html(function() {

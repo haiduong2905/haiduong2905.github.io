@@ -1,9 +1,9 @@
 .list-lv1:nth-child(2) {
-    background-color: #ffd500;
+    border-bottom: 2px solid #ffd500;
 }
 
 .color-hover>a {
-    color: #fff;
+    color: #ffd500;
 }
 
 .service-detail-title {

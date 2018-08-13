@@ -20,6 +20,11 @@ $(function() {
     $('.back-to-top').click(function() {
         $('body').animate({ 'scrollTop': 0 });
     });
+
+    $('.hotline-tag').click(function() {
+        $('.hotline').toggle();
+        $('.hotline-tag').addClass('rotate');
+    });
     // Live chat
     function detectmob() {
         if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {

@@ -73,6 +73,78 @@
                 </div>
             </div>
         </div>
+        <!-- Menu Responsive -->
+        <div class="menu-responsive">
+            <div class="top_menu">
+                <div class="top_menu-logo">
+                    <img src="../image/logo/logo4.png" alt="Logo" title="Logo">
+                </div>
+                <div class="top_menu-icon" onclick="myFunction(this)">
+                    <div class="bar bar1"></div>
+                    <div class="bar bar2"></div>
+                    <div class="bar bar3"></div>
+                </div>
+                <script>
+                    function myFunction(x) {
+                        x.classList.toggle("change");
+                    }
+                </script>
+            </div>
+            <div class="menu-detail">
+                <ul class="underlist-lv1-res">
+                    <div class="list-lv1-res">
+                        <li><a href="index.html">Trang chủ</a></li>
+                    </div>
+                    <div class="list-lv1-res list-more-res">
+                        <li><a href="#">Gói dịch vụ &nbsp;<i id='openMenu' class="fas fa-sort-down"></i></a></li>
+
+                    </div>
+                    <ul class="underlist-lv2-res">
+                        <div class="list-lv2-res">
+                            <li><a href="services.html">Gói hàng ngày</a></li>
+                        </div>
+                        <div class="list-lv2-res">
+                            <li><a href="services.html">Gói linh hoạt</a></li>
+                        </div>
+                        <div class="list-lv2-res">
+                            <li><a href="services.html">Gói tháng</a></li>
+                        </div>
+                        <div class="list-lv2-res">
+                            <li><a href="services.html">Gói quý</a></li>
+                        </div>
+                        <div class="list-lv2-res">
+                            <li><a href="services.html">Phòng 16m2</a></li>
+                        </div>
+                        <div class="list-lv2-res">
+                            <li><a href="services.html">Phòng 24m2</a></li>
+                        </div>
+                        <div class="list-lv2-res">
+                            <li><a href="services.html">Phòng 30m2</a></li>
+                        </div>
+                        <div class="list-lv2-res">
+                            <li><a href="services.html">Dịch vụ khác</a></li>
+                        </div>
+                    </ul>
+
+                    <div class="list-lv1-res">
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                    </div>
+                    <div class="list-lv1-res">
+                        <li><a href="widget.html">Tiện ích</a></li>
+                    </div>
+                    <div class="list-lv1-res">
+                        <li><a href="blog.html">Blog</a></li>
+                    </div>
+                    <div class="list-lv1-res">
+                        <li><a href="booking.html">Đặt chỗ</a></li>
+                    </div>
+                    <div class="list-lv1-res">
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
         <!-- Banner -->
         <div class="banner">
             <div class="slideshow-container">
@@ -103,19 +175,18 @@
                 </div>
                 <a class="prev" onclick="plusSlides()">❮</a>
                 <a class="next" onclick="plusSlides()">❯</a>
-                <a href="about.html" class="banner-more">Tìm hiểu thêm</a>
+                <div class="banner-more">
+                    <p><a href="about.html">Tìm hiểu thêm</a></p>
+                </div>
+
             </div>
         </div>
 
         <!-- Content -->
         <div class="main-content-outside">
-            <div class="content brand-shape">
-                <div class="brand-title">
-                    <h2>Khám phá</h2>
-                </div>
-                <div class="brand-para">
-                    <p>Chúng tôi có gì?</p>
-                </div>
+            <div class="brand-shape">
+                <h2 class="sect-title">Khám phá</h2>
+                <p class="subheading">Chúng tôi có gì?</p>
             </div>
             <div class="about-home">
                 <div class="about-title">
@@ -261,11 +332,14 @@
 
             <div class="main-content-choice">
                 <div class="brand-choice">
+                    <div class="brand-choice-img">
+                        <img src="../image/logo/bg.png">
+                    </div>
                     <div class="choice-title">
                         <h2>Quyền lợi</h2>
                     </div>
                     <div class="choice-para">
-                        <p><span>Bạn nhận được gì?&nbsp; </span></p>
+                        <p><span>Bạn nhận được gì?</span></p>
                     </div>
                 </div>
                 <div class="choice-row-1">
@@ -296,7 +370,7 @@
                             <div class="choice-list-img-1">
                                 <img src="../image/logo/theme6.png">
                             </div>
-                            <p>Cộng động hỗ trợ</p>
+                            <p>Cộng động kết nối</p>
                             <div class="choice-list-img-2">
                                 <img src="../image/vector/Employee-Relations.jpg">
                             </div>
@@ -631,7 +705,7 @@
         </div>
         <div class="hotline-tag">
             <div class="hotline-drag">
-                <p>Liên hệ</p>
+                <p>Hotline</p>
             </div>
             <div class="hotline">
                 <div class="number-phone">

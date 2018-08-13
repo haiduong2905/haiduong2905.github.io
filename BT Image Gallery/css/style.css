@@ -7,6 +7,7 @@ body{
 }
 
 img{
+	display: block;
 	max-width: 100%;
 }
 #main-menu a{
@@ -35,3 +36,53 @@ img{
 	max-width: 1000px;
 	margin: auto;
 }
+
+#banner {
+	width: 100%;
+}
+	#ao img:hover{
+		transform: scale(1.02);
+	}
+
+	#aomu, #aoarsenal, #aoreal, #aochelsea, #aobarca {
+		width: 100%;
+		margin: 2% 0;
+		float: left;
+	}
+
+	.aomu, .aoarsenal, .aoreal, .aochelsea, .aobarca {
+		float: left;
+		width: 32%;
+		overflow: hidden;
+	}
+
+
+	.aomu2, .aoarsenal2, .aoreal2, .aochelsea2, .aobarca2 {
+		margin: 0 2%;
+	}
+
+
+	.aomu {
+		border: 1px solid red;	
+	}
+	
+
+	.aoarsenal {
+		border: 1px solid green;
+	}
+	
+
+	.aoreal {
+		border: 1px solid orange;
+	}
+	
+
+	.aochelsea {
+		border: 1px solid blue;
+	}
+	
+
+	.aobarca {
+		border: 1px solid purple;
+	}
+	

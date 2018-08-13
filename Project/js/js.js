@@ -54,9 +54,16 @@ $(function() {
                     bottom: "30px",
                     opacity: 1
                 }, 2 * t.delay), t.overlay.fadeIn(t.delay)
-            })
-        })
-    }
+            });
+        });
+    };
+    $('#openMenu').click(function() {
+        $('.underlist-lv2-res').toggle();
+    });
+    $('.top_menu-icon').click(function() {
+        $('.menu-detail').toggle();
+        $('.underlist-lv2-res').hide();
+    });
 
 });
 // Slide Banner

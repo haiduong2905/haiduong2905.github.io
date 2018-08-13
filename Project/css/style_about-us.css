@@ -1,9 +1,9 @@
 .list-lv1:nth-child(3) {
-    background-color: #ffd500;
+    border-bottom: 2px solid #ffd500;
 }
 
 .list-lv1:nth-child(3) a {
-    color: #fff;
+    color: #ffd500;
 }
 
 .service-detail-title {
@@ -56,6 +56,10 @@ hr {
     text-indent: 40px;
 }
 
+.about-us-left img {
+    width: 100%;
+}
+
 .about-us span {
     color: #ffd500;
 }
@@ -63,6 +67,7 @@ hr {
 .about-us-left {
     width: 80%;
     padding-right: 30px;
+    padding-bottom: 50px;
     text-align: justify;
 }
 

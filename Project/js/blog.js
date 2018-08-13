@@ -21,6 +21,11 @@ $(function() {
     $('.back-to-top').click(function() {
         $('body').animate({ 'scrollTop': 0 });
     });
+
+    $('.hotline-tag').click(function() {
+        $('.hotline').toggle();
+        $('.hotline-tag').addClass('rotate');
+    });
     // Strim length
     $('.news-title a').html(function() {
         let str = $('.news-title a').html();

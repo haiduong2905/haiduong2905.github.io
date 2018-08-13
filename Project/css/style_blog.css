@@ -1,9 +1,9 @@
 .list-lv1:nth-child(5) {
-    background-color: #ffd500;
+    border-bottom: 2px solid #ffd500;
 }
 
 .list-lv1:nth-child(5) a {
-    color: #fff;
+    color: #ffd500;
 }
 
 .service-detail-title {
