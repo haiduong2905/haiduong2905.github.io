@@ -39,6 +39,15 @@ $(function() {
             $('.news-detail').html(str);
         } else $('.news-detail').html(str.substring(0, 35) + '...');
     });
+    // Menu scroll
+    $('#openMenu').click(function() {
+        $('.underlist-lv2-res').toggle();
+    });
+    $('.top_menu-icon').click(function() {
+        $('.menu-detail').toggle();
+        $('.underlist-lv2-res').hide();
+    });
+
 
     // Live chat
     function detectmob() {

@@ -183,8 +183,12 @@ hr {
     margin-bottom: 30px;
 }
 
-.service-list img {
+.service-list-lv1-img {
     width: 20%;
+}
+
+.service-list-lv1-img img {
+    width: 100%;
 }
 
 .service-list-lv1 {
@@ -197,7 +201,6 @@ hr {
     width: 80%;
     text-indent: 0;
     margin: 0;
-    line-height: 48px;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -272,4 +275,56 @@ hr {
 
 .news-list-lv1 a:hover {
     color: #ffd500;
+}
+
+@media (max-width:768px) {
+    .service-detail {
+        font-size: 12px;
+    }
+    .about-us {
+        font-size: 12px;
+    }
+    .blog-right {
+        font-size: 12px;
+    }
+    .service-list-tittle {
+        font-size: 14px;
+    }
+    .news-detail {
+        font-size: 12px;
+    }
+    .card-content h3 {
+        font-size: 12px;
+    }
+    .card-content p {
+        font-size: 12px;
+    }
+    .card-action {
+        font-size: 12px;
+    }
+    .card-action p {
+        padding-left: 5px;
+    }
+}
+
+@media (max-width:600px) {
+    .service-detail {
+        font-size: 10px;
+    }
+    .service-list-tittle {
+        font-size: 12px;
+    }
+    .news-detail {
+        font-size: 10px;
+    }
+    .service-list-lv1 {
+        height: 25px;
+    }
+    .service-list-tittle {
+        font-size: 10px;
+        height: 25px;
+    }
+    .news-list-lv1 {
+        font-size: 10px;
+    }
 }

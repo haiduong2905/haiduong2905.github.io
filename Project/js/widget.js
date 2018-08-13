@@ -26,6 +26,15 @@ $(function() {
         $('.hotline').toggle();
         $('.hotline-tag').addClass('rotate');
     });
+    // Menu scroll
+    $('#openMenu').click(function() {
+        $('.underlist-lv2-res').toggle();
+    });
+    $('.top_menu-icon').click(function() {
+        $('.menu-detail').toggle();
+        $('.underlist-lv2-res').hide();
+    });
+
     // Strim length
     $('.news-title a').html(function() {
         var str = $('.news-title a').html();
