@@ -1,0 +1,7 @@
+.list-lv1:nth-child(1) {
+    border-bottom: 2px solid #ffd500;
+}
+
+.list-lv1:nth-child(1) a {
+    color: #ffd500;
+}

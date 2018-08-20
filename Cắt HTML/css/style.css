@@ -1,0 +1,40 @@
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url('../Minimo_-_Blog_template/FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 14px;
+    color: #626262;
+}
+
+.container {
+    max-width: 1062px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.bg-light {
+    background: #fff !important;
+}
+
+.navbar {
+    padding: 26px 8px;
+}
+
+.navbar-brand {
+    font-family: PlayfairDisplay;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.nav-item {
+    font-family: PlayfairDisplay;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 50px;
+}

@@ -26,6 +26,10 @@ $(function() {
         $('.hotline').toggle();
         $('.hotline-tag').addClass('rotate');
     });
+
+    $('.select_item').click(function() {
+        $(':radio').on('click');
+    });
     // Strim length
     $('.news-title a').html(function() {
         let str = $('.news-title a').html();
@@ -87,7 +91,7 @@ $(function() {
         Select_service: data[6],
     };
     $('.info_user').append('<h4>Tên bạn: <span>' + success['Name'] + '</span></h4>');
-    $('.info_user').append('<h4>Số điện thoại: <span>' + success['Name'] + '</span></h4>');
+    $('.info_user').append('<h4>Số điện thoại: <span>' + success['Numberphone'] + '</span></h4>');
     $('.info_user').append('<h4>Email: <span>' + success['Email'] + '</span></h4>');
     $('.info_user').append('<h4>Ngày bắt đầu: <span>' + success['Day'] + '</span></h4>');
     $('.info_user').append('<h4>Gói đăng ký: <span>' + success['Select_service'] + '</span></h4>');
@@ -129,11 +133,11 @@ $(function() {
         }
         // Gender
 
-        if ($("input[name='service']:checked").val() == null) {
-            $('#error span').text('Bạn chưa chọn gói dịch vụ');
+        if ($(".select_item input[type='radio']:checked").val() == null) {
+            $('.error').text('Bạn chưa chọn gói dịch vụ');
             isValid = false;
         } else {
-            $('#error span').text('');
+            $('.error').text('');
         }
         return isValid;
     });
