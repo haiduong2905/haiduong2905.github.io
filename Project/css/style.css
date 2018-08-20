@@ -1180,7 +1180,7 @@
         font-size: 16px;
         padding: 5px 0px 5px 25px;
         list-style-type: none;
-        background: url(/image/logo/11.png) no-repeat scroll left center;
+        background: url(../image/logo/11.png) no-repeat scroll left center;
         background-size: 16px;
     }
     
@@ -1188,7 +1188,7 @@
         font-size: 16px;
         padding: 5px 0px 5px 25px;
         list-style-type: none;
-        background: url(/image/logo/12.png) no-repeat scroll left center;
+        background: url(../image/logo/12.png) no-repeat scroll left center;
         background-size: 16px;
     }
     
