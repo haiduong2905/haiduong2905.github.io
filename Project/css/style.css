@@ -108,7 +108,7 @@
     .list-lv2 {
         text-align: left;
         padding-left: 10px;
-        border-bottom: 1px solid #ffd500;
+        border-bottom: 0.5px solid #ffd500;
         line-height: 40px;
         height: 40px;
         text-decoration: none;
@@ -118,7 +118,7 @@
     
     .list-lv2:hover {
         background-color: #ffd500;
-        border-bottom: 1px solid #fff;
+        border-bottom: 0.5px solid #fff;
     }
     
     .list-lv2:hover li a {
@@ -603,6 +603,9 @@
     }
     
     .tab button {
+        background: linear-gradient(#e4e4e4, #989898);
+        border: none;
+        border-right: 0.5px solid rgb(116, 116, 116);
         width: 100%;
         outline: none;
         cursor: pointer;
@@ -613,6 +616,10 @@
         -moz-transition: 0.3s;
         -ms-transition: 0.3s;
         -o-transition: 0.3s;
+    }
+    
+    .tab button:last-child {
+        border-right: none;
     }
     
     @media (max-width:800px) {
@@ -628,7 +635,8 @@
     }
     
     .tab button.active {
-        color: #ffd500;
+        color: #fff;
+        background: rgb(175, 175, 175);
     }
     
     .tabcontent {

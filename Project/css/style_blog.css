@@ -24,10 +24,6 @@
     .service-detail-title p:nth-child(3) a {
         color: #ffd500;
     }
-    
-    hr {
-        max-width: 1200px;
-    }
     /* Left */
     
     .blog {

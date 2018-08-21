@@ -19,8 +19,9 @@ $(function() {
         })
         // Back to top ==0
     $('.back-to-top').click(function() {
-        $('body').animate({ 'scrollTop': 0 });
+        $('html').animate({ scrollTop: 0 }, 1000);
     });
+
 
     $('.hotline-tag').click(function() {
         $('.hotline').toggle();

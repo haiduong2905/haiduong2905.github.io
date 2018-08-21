@@ -11,7 +11,7 @@ $(function() {
         } else {
             $('.back-to-top').css('opacity', '0')
         }
-        if ($('html').scrollTop() > 1100) {
+        if ($('html').scrollTop() > 1200) {
             $('.back-to-top').css('background-color', 'rgba(227, 227, 227, 0.411)')
         } else {
             $('.back-to-top').css('background-color', 'rgba(27, 27, 27, 0.411)')
@@ -30,8 +30,9 @@ $(function() {
         }
     })
     $('.back-to-top').click(function() {
-        $('body').animate({ 'scrollTop': 0 });
+        $('html').animate({ scrollTop: 0 }, 1000);
     });
+
 
     $('.hotline-tag').click(function() {
         $('.hotline').toggle();
