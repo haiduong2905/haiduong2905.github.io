@@ -5,50 +5,7 @@
     .list-lv1:nth-child(5) a {
         color: #ffd500;
     }
-    
-    .service-detail-title {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-    }
-    
-    .service-detail-title a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    .service-detail-title p {
-        margin: 15px 0 0 0;
-    }
-    
-    .service-detail-title p:nth-child(3) a {
-        color: #ffd500;
-    }
     /* Left */
-    
-    .blog {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-    }
-    
-    .blog-left {
-        width: 80%;
-    }
-    
-    .blog-left-row-1 {
-        width: 100%;
-        display: flex;
-        padding-right: 2%;
-        margin-top: 20px;
-    }
-    
-    .blog-left-row-2 {
-        width: 100%;
-        display: flex;
-        padding-right: 2%;
-        margin: 20px 0 50px 0;
-    }
     
     .card img {
         display: block;
@@ -64,6 +21,7 @@
     
     .card {
         width: 32%;
+        float: left;
         border: 0.5px solid #ccc;
         box-shadow: 0 2px 2px 0 #ccc, 0 2px 2px 0 #ccc;
         transition: all 0.5s ease-in-out;
@@ -96,18 +54,6 @@
         color: blue;
     }
     
-    .card1 {
-        margin: 0 1% 0 0;
-    }
-    
-    .card2 {
-        margin: 0 1%;
-    }
-    
-    .card3 {
-        margin: 0 0 0 1%;
-    }
-    
     .card-content {
         padding: 10px;
     }
@@ -135,163 +81,38 @@
     }
     
     .card-action p:nth-child(1) {
-        flex: 1;
+        width: 50%;
         text-align: left;
         padding-left: 10px;
     }
     
     .card-action p:nth-child(2) {
-        flex: 1;
+        width: 50%;
         text-align: right;
         padding-right: 10px;
     }
-    /* Right */
     
-    .blog-right {
-        width: 20%;
+    .card:nth-child(1),
+    .card:nth-child(3) {
+        margin: 2% 0;
     }
     
-    .service-list-tittle {
-        height: 40px;
-        background: #ffd500;
-        font-size: 20px;
-        color: rgb(70, 69, 69);
-        padding: 10px;
-        border-bottom: 0.5px solid #bbb;
-        border-radius: 5px 5px 0 0;
-        -webkit-border-radius: 5px 5px 0 0;
-        -moz-border-radius: 5px 5px 0 0;
-        -ms-border-radius: 5px 5px 0 0;
-        -o-border-radius: 5px 5px 0 0;
+    .card:nth-child(4),
+    .card:nth-child(6) {
+        margin: 2% 0;
     }
     
-    .service-list {
-        border: 0.5px solid #bbb;
-        border-radius: 5px 5px 0 0;
-        -webkit-border-radius: 5px 5px 0 0;
-        -moz-border-radius: 5px 5px 0 0;
-        -ms-border-radius: 5px 5px 0 0;
-        -o-border-radius: 5px 5px 0 0;
-        margin-bottom: 30px;
+    .card:nth-child(2),
+    .card:nth-child(5) {
+        margin: 2% 2%;
     }
     
-    .service-list-lv1-img {
-        width: 20%;
-    }
-    
-    .service-list-lv1-img img {
-        width: 100%;
-    }
-    
-    .service-list-lv1 {
-        display: flex;
-        height: 48px;
-        padding-left: 10px;
-    }
-    
-    .service-list-lv1 p {
-        width: 80%;
-        text-indent: 0;
-        margin: 0;
-        line-height: 48px;
-        transition: 0.5s;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
-        padding-left: 10px;
-    }
-    
-    .service-list-lv1 a {
-        text-decoration: none;
-        color: rgb(70, 69, 69);
-    }
-    
-    .service-list-lv1 p:hover {
-        text-indent: 10px;
-    }
-    
-    .service-list-lv1 a:hover {
-        color: #ffd500;
-    }
-    
-    .news-list {
-        border: 0.5px solid #bbb;
-        border-radius: 5px 5px 0 0;
-        -webkit-border-radius: 5px 5px 0 0;
-        -moz-border-radius: 5px 5px 0 0;
-        -ms-border-radius: 5px 5px 0 0;
-        -o-border-radius: 5px 5px 0 0;
-        margin-bottom: 30px;
-    }
-    
-    .news-list img {
-        width: 100%;
-    }
-    
-    .news-list-lv1 {
-        display: flex;
-        height: 60px;
-        padding: 5px;
-        border-bottom: 0.5px solid #ccc;
-    }
-    
-    .news-list-lv1-img {
-        width: 20%;
-    }
-    
-    .news-list-lv1-para {
-        width: 80%;
-    }
-    
-    .news-detail {
-        margin: 0;
-        color: rgb(104, 104, 104);
-        font-size: 13px;
-        padding-left: 10px;
-    }
-    
-    .news-title {
-        margin: 0;
-        transition: 0.5s;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
-        padding-left: 10px;
-        font-size: 15px;
-    }
-    
-    .news-list-lv1 a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    .news-list-lv1 a:hover {
-        color: #ffd500;
-    }
-    
-    @media (max-width:768px) {
-        .service-detail {
-            font-size: 12px;
-        }
-        .about-us {
-            font-size: 12px;
-        }
-        .blog-right {
-            font-size: 12px;
-        }
-        .service-list-tittle {
-            font-size: 14px;
-        }
-        .news-detail {
-            font-size: 12px;
-        }
+    @media (max-width:800px) {
         .card-content h3 {
-            font-size: 12px;
+            font-size: 16px;
         }
         .card-content p {
-            font-size: 12px;
+            font-size: 14px;
         }
         .card-action {
             font-size: 12px;
@@ -302,23 +123,43 @@
     }
     
     @media (max-width:600px) {
-        .service-detail {
-            font-size: 10px;
+        .card {
+            width: 49%;
+            float: left;
         }
-        .service-list-tittle {
-            font-size: 12px;
+        .card:nth-child(1),
+        .card:nth-child(3),
+        .card:nth-child(5) {
+            margin: 2% 1% 2% 0;
         }
-        .news-detail {
-            font-size: 10px;
+        .card:nth-child(2),
+        .card:nth-child(4),
+        .card:nth-child(6) {
+            margin: 2% 0% 2% 1%;
+        }
+    }
+    
+    @media (max-width:415px) {
+        .general-left {
+            width: 60%;
+        }
+        .general-right {
+            width: 40%;
+            padding-right: 2%;
+        }
+        .card {
+            width: 100%;
+        }
+        .card:nth-child(1),
+        .card:nth-child(2),
+        .card:nth-child(3),
+        .card:nth-child(4),
+        .card:nth-child(5),
+        .card:nth-child(6),
+        {
+            margin: 2% 2%;
         }
         .service-list-lv1 {
-            height: 25px;
-        }
-        .service-list-tittle {
-            font-size: 10px;
-            height: 25px;
-        }
-        .news-list-lv1 {
-            font-size: 10px;
+            height: 45px;
         }
     }

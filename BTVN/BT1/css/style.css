@@ -64,7 +64,7 @@ body {
 .menu a {
 	text-decoration: none;
 	font-size: 16px;
-	color: white;
+	color: #0ffff0;
 	text-transform: uppercase;
 	padding: 5px 10px;
 }
@@ -142,7 +142,7 @@ body {
 
 #main a {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	font-size: 24px;
 }
 

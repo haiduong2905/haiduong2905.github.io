@@ -36,13 +36,13 @@ $(function() {
         let str = $('.news-title a').html();
         if (str.length <= 15) {
             $('.news-title a').html(str);
-        } else $('.news-title a').html(str.substring(0, 15) + '...');
+        } else $('.news-title a').html(str.substring(0, 10) + '...');
     });
     $('.news-detail').html(function() {
         let str = $('.news-detail').html();
         if (str.length <= 35) {
             $('.news-detail').html(str);
-        } else $('.news-detail').html(str.substring(0, 35) + '...');
+        } else $('.news-detail').html(str.substring(0, 25) + '...');
     });
     // Menu scroll
     $('#openMenu').click(function() {
@@ -91,7 +91,7 @@ $(function() {
         Day: data[3] + '/' + data[4] + '/' + data[5],
         Select_service: data[6],
     };
-    $('.info_user').append('<h4>Tên bạn: <span>' + success['Name'] + '</span></h4>');
+    $('.info_user').append('<h3>Chào bạn: <span>' + success['Name'] + '</span>! Cám ơn bạn đã chọn dịch vụ của chúng tôi.</h3>');
     $('.info_user').append('<h4>Số điện thoại: <span>' + success['Numberphone'] + '</span></h4>');
     $('.info_user').append('<h4>Email: <span>' + success['Email'] + '</span></h4>');
     $('.info_user').append('<h4>Ngày bắt đầu: <span>' + success['Day'] + '</span></h4>');

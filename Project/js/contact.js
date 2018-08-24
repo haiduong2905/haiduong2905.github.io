@@ -41,13 +41,13 @@ $(function() {
         let str = $('.news-title a').html();
         if (str.length <= 15) {
             $('.news-title a').html(str);
-        } else $('.news-title a').html(str.substring(0, 15) + '...');
+        } else $('.news-title a').html(str.substring(0, 10) + '...');
     });
     $('.news-detail').html(function() {
         let str = $('.news-detail').html();
         if (str.length <= 35) {
             $('.news-detail').html(str);
-        } else $('.news-detail').html(str.substring(0, 35) + '...');
+        } else $('.news-detail').html(str.substring(0, 25) + '...');
     });
     // Live chat
     function detectmob() {

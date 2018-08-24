@@ -28,13 +28,13 @@
 
 /* Left */
 
-.contact {
+.general {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
 }
 
-.contact-left {
+.general-left {
     width: 80%;
     padding-right: 20px;
     padding-bottom: 50px;
@@ -95,7 +95,7 @@
 
 /* Right */
 
-.contact-right {
+.general-right {
     width: 20%;
 }
 

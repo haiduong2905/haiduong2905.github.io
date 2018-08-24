@@ -56,7 +56,6 @@
  /* Animation Tab*/
  
  .main-content-col-11.fade-out-11 {
-     visibility: visible;
      animation: fade-out-11 1.5s ease-in-out;
      -webkit-animation: fade-out-11 1.5s ease-in-out;
  }
@@ -96,7 +95,6 @@
  }
  
  .main-content-col-12.fade-out-12 img {
-     visibility: visible;
      animation: fade-out-12 1.5s ease-in-out;
      -webkit-animation: fade-out-12 1.5s ease-in-out;
  }
@@ -140,7 +138,6 @@
  }
  
  .main-content-col-13.fade-out-13 {
-     visibility: visible;
      animation: fade-out-13 1.5s ease-in-out;
      -webkit-animation: fade-out-13 1.5s ease-in-out;
  }
@@ -180,13 +177,11 @@
  }
  
  .main-content-col-21.fade-out-21 {
-     visibility: visible;
      animation: fade-out-21 1.5s ease-in-out;
      -webkit-animation: fade-out-21 1.5s ease-in-out;
  }
  
  .main-content-col-22.fade-out-21 {
-     visibility: visible;
      animation: fade-out-21 1.5s ease-in-out;
      -webkit-animation: fade-out-21 1.5s ease-in-out;
  }
@@ -228,19 +223,11 @@
  /* 1 */
  
  .choice-outside-1:nth-child(1).fade-choiceout-11 {
-     visibility: visible;
      animation: bounceInDown2 0.5s ease-in-out;
      -webkit-animation: bounceInDown2 0.5s ease-in-out;
  }
  
  @-webkit-keyframes bounceInDown1 {
-     from,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -281,13 +268,6 @@
  }
  
  @keyframes bounceInDown1 {
-     from,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -329,20 +309,11 @@
  /* 2 */
  
  .choice-outside-1:nth-child(2).fade-choiceout-12 {
-     visibility: visible;
      animation: bounceInDown2 0.75s ease-in-out;
      -webkit-animation: bounceInDown2 0.75s ease-in-out;
  }
  
  @-webkit-keyframes bounceInDown2 {
-     from,
-     33%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -391,14 +362,6 @@
  }
  
  @keyframes bounceInDown2 {
-     from,
-     33%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -448,20 +411,11 @@
  /* 3*/
  
  .choice-outside-1:nth-child(3).fade-choiceout-13 {
-     visibility: visible;
      animation: bounceInDown3 1s ease-in-out;
      -webkit-animation: bounceInDown3 1s ease-in-out;
  }
  
  @-webkit-keyframes bounceInDown3 {
-     from,
-     25%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -510,14 +464,6 @@
  }
  
  @keyframes bounceInDown3 {
-     from,
-     25%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -567,20 +513,11 @@
  /* 4*/
  
  .choice-outside-1:nth-child(4).fade-choiceout-14 {
-     visibility: visible;
      animation: bounceInDown4 1.25s ease-in-out;
      -webkit-animation: bounceInDown4 1.25s ease-in-out;
  }
  
  @-webkit-keyframes bounceInDown4 {
-     from,
-     20%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -629,14 +566,6 @@
  }
  
  @keyframes bounceInDown4 {
-     from,
-     20%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -686,20 +615,11 @@
  /* 5*/
  
  .choice-outside-2:nth-child(1).fade-choiceout-21 {
-     visibility: visible;
      animation: bounceInDown5 1.5s ease-in-out;
      -webkit-animation: bounceInDown5 1.5s ease-in-out;
  }
  
  @-webkit-keyframes bounceInDown5 {
-     from,
-     16.7%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -748,14 +668,6 @@
  }
  
  @keyframes bounceInDown5 {
-     from,
-     16.7%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -805,20 +717,11 @@
  /* 6*/
  
  .choice-outside-2:nth-child(2).fade-choiceout-22 {
-     visibility: visible;
      animation: bounceInDown6 1.75s ease-in-out;
      -webkit-animation: bounceInDown6 1.75s ease-in-out;
  }
  
  @-webkit-keyframes bounceInDown6 {
-     from,
-     14.3%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -867,14 +770,6 @@
  }
  
  @keyframes bounceInDown6 {
-     from,
-     14.3%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -924,20 +819,11 @@
  /* 7*/
  
  .choice-outside-2:nth-child(3).fade-choiceout-23 {
-     visibility: visible;
      animation: bounceInDown7 2s ease-in-out;
      -webkit-animation: bounceInDown7 2s ease-in-out;
  }
  
  @-webkit-keyframes bounceInDown7 {
-     from,
-     12.5%,
-     50%,
-     75%,
-     90%,
-     to {
-         animation-timing-function: ease-in-out;
-     }
      0% {
          opacity: 0;
          transform: translate3d(0, -300px, 0);
@@ -1043,37 +929,27 @@
  /* Goi dich vu */
  
  .service-row-1-col:nth-child(4).fade-serviceout-14 {
-     visibility: visible;
      animation: bounceInRight4 1.0s ease-in-out;
      -webkit-animation: bounceInRight4 1.0s ease-in-out;
  }
  
  .service-row-1-col:nth-child(3).fade-serviceout-13 {
-     visibility: visible;
      animation: bounceInRight4 1.25s ease-in-out;
      -webkit-animation: bounceInRight4 1.25s ease-in-out;
  }
  
  .service-row-1-col:nth-child(2).fade-serviceout-12 {
-     visibility: visible;
      animation: bounceInRight4 1.5s ease-in-out;
      -webkit-animation: bounceInRight4 1.5s ease-in-out;
  }
  
  .service-row-1-col:nth-child(1).fade-serviceout-11 {
-     visibility: visible;
      animation: bounceInRight4 1.75s ease-in-out;
      -webkit-animation: bounceInRight4 1.75s ease-in-out;
  }
  
  @-webkit-keyframes bounceInRight4 {
-     from,
-     to {
-         -webkit-animation-timing-function: ease-in-out;
-         animation-timing-function: ease-in-out;
-     }
      0% {
-         opacity: 0;
          transform: translate3d(-800px, 0, 0);
          -webkit-transform: translate3d(-800px, 0, 0);
          -moz-transform: translate3d(-800px, 0, 0);
@@ -1081,7 +957,6 @@
          -o-transform: translate3d(-800px, 0, 0);
      }
      to {
-         opacity: 1;
          transform: none;
          -webkit-transform: none;
          -moz-transform: none;
@@ -1091,13 +966,7 @@
  }
  
  @keyframes bounceInRight4 {
-     from,
-     to {
-         -webkit-animation-timing-function: ease-in-out;
-         animation-timing-function: ease-in-out;
-     }
      0% {
-         opacity: 0;
          transform: translate3d(-800px, 0, 0);
          -webkit-transform: translate3d(-800px, 0, 0);
          -moz-transform: translate3d(-800px, 0, 0);
@@ -1105,7 +974,6 @@
          -o-transform: translate3d(-800px, 0, 0);
      }
      to {
-         opacity: 1;
          transform: none;
          -webkit-transform: none;
          -moz-transform: none;
@@ -1115,37 +983,27 @@
  }
  
  .service-row-2-col:nth-child(1).fade-serviceout-21 {
-     visibility: visible;
      animation: bounceInLeft1 1s ease-in-out;
      -webkit-animation: bounceInLeft1 1s ease-in-out;
  }
  
  .service-row-2-col:nth-child(2).fade-serviceout-22 {
-     visibility: visible;
      animation: bounceInLeft1 1.25s ease-in-out;
      -webkit-animation: bounceInLeft1 1.25s ease-in-out;
  }
  
  .service-row-2-col:nth-child(3).fade-serviceout-23 {
-     visibility: visible;
      animation: bounceInLeft1 1.5s ease-in-out;
      -webkit-animation: bounceInLeft1 1.5s ease-in-out;
  }
  
  .service-row-2-col:nth-child(4).fade-serviceout-24 {
-     visibility: visible;
      animation: bounceInLeft1 1.75s ease-in-out;
      -webkit-animation: bounceInLeft1 1.75s ease-in-out;
  }
  
  @-webkit-keyframes bounceInLeft1 {
-     from,
-     to {
-         -webkit-animation-timing-function: ease-in-out;
-         animation-timing-function: ease-in-out;
-     }
      0% {
-         opacity: 0;
          transform: translate3d(1800px, 0, 0);
          -webkit-transform: translate3d(1800px, 0, 0);
          -moz-transform: translate3d(1800px, 0, 0);
@@ -1153,7 +1011,6 @@
          -o-transform: translate3d(1800px, 0, 0);
      }
      to {
-         opacity: 1;
          transform: none;
          -webkit-transform: none;
          -moz-transform: none;
@@ -1163,13 +1020,7 @@
  }
  
  @keyframes bounceInLeft1 {
-     from,
-     to {
-         -webkit-animation-timing-function: ease-in-out;
-         animation-timing-function: ease-in-out;
-     }
      0% {
-         opacity: 0;
          transform: translate3d(1800px, 0, 0);
          -webkit-transform: translate3d(1800px, 0, 0);
          -moz-transform: translate3d(1800px, 0, 0);
@@ -1177,7 +1028,6 @@
          -o-transform: translate3d(1800px, 0, 0);
      }
      to {
-         opacity: 1;
          transform: none;
          -webkit-transform: none;
          -moz-transform: none;
