@@ -611,7 +611,6 @@
     .tabcontent {
         display: none;
         padding: 6px;
-        overflow: hidden;
     }
     /* Row 1 */
     
@@ -946,7 +945,6 @@
         max-width: 1200px;
         margin: 0 auto;
         color: rgb(65, 65, 65);
-        overflow: hidden;
     }
     /* Row 1 */
     
