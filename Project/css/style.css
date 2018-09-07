@@ -172,6 +172,7 @@
         .menu-responsive {
             max-width: 1200px;
             margin: 0 auto;
+            overflow: auto;
         }
         .top_menu {
             width: 100%;
@@ -323,7 +324,6 @@
         left: 50%;
         width: 100%;
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
         transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
         -moz-transform: translate(-50%, -50%);
@@ -503,6 +503,12 @@
         margin: 0 auto;
         width: 60%;
         text-align: center;
+    }
+    
+    @media (max-width:415px) {
+        .about-title p {
+            width: 100%;
+        }
     }
     
     .about-title span {

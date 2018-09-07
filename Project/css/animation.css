@@ -1,28 +1,5 @@
  /* Banneranimation */
  
- .fade {
-     animation: fade 2s ease-in-out;
-     -webkit-animation: fade 2s ease-in-out;
- }
- 
- @-webkit-keyframes fade {
-     from {
-         opacity: 0.8;
-     }
-     to {
-         opacity: 1;
-     }
- }
- 
- @keyframes fade {
-     from {
-         opacity: 0.8;
-     }
-     to {
-         opacity: 1;
-     }
- }
- 
  .fade2 {
      animation: fade2 1.5s ease-in-out;
      -webkit-animation: fade2 1.5s ease-in-out;
