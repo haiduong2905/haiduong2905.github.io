@@ -1,0 +1,365 @@
+.list-lv1:nth-child(6) {
+    border-bottom: 2px solid #ffd500;
+}
+
+.list-lv1:nth-child(6) a {
+    color: #ffd500;
+}
+
+@font-face {
+    font-family: utm-hanzel;
+    src: url(../font/UTM\ Hanzel.ttf);
+}
+
+.service-detail-title {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.service-detail-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.service-detail-title p {
+    margin: 15px 0 0 0;
+}
+
+.service-detail-title p:nth-child(3) a {
+    color: #ffd500;
+}
+
+
+/* Left */
+
+.general-left {
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-title-top {
+    width: 100%;
+    padding-left: 2%;
+}
+
+.booking-title-top h1 {
+    color: #0602fc;
+    font: 400 25px/20px 'utm-hanzel';
+    text-transform: uppercase;
+}
+
+.booking-title-top ul {
+    list-style-image: url(../image/icon/14.png);
+}
+
+
+/* Form regestry */
+
+.form_regestry input {
+    width: 50%;
+    height: 30px;
+    margin: 5px 0 20px 0;
+    padding-left: 10px;
+}
+
+.form_regestry {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 2%;
+    display: flex;
+}
+
+.form_regestry form {
+    width: 100%;
+}
+
+.form_content {
+    width: 100%;
+    padding-right: 30px;
+}
+
+.select_day {
+    width: 100%;
+    height: 25px;
+    margin: 2% 0;
+}
+
+.select_day select {
+    font-size: 16px;
+    width: 15%;
+    padding: 5px 0;
+}
+
+.select_day select:nth-child(2) {
+    margin: 0 2%;
+}
+
+.select_service {
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+    margin: 5px 0;
+    flex-direction: column;
+}
+
+.select_service_row_1 {
+    display: flex;
+    width: 100%;
+}
+
+.select_service_row_2 {
+    display: flex;
+    width: 100%;
+}
+
+.select_item {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 4px 36px;
+    margin: 12px 0;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.select_item input {
+    position: absolute;
+    top: -31%;
+    left: -17.5%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.select_item:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.select_item input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.select_item input:checked~.checkmark:after {
+    display: block;
+}
+
+.select_item .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.select_service input:nth-child(2) {
+    margin: 0 2%;
+}
+
+.submit {
+    padding: 40px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0 auto;
+}
+
+.submit input {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    background: #ffd500;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #000;
+}
+
+.submit input:hover {
+    background: #ffb500;
+    color: #fff;
+}
+
+.error {
+    padding-left: 5px;
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/* booking success */
+
+.booking_success {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.booking_success p {
+    padding: 10px;
+    text-align: center;
+}
+
+.info_user {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.info_user h2 {
+    color: rgb(4, 40, 245);
+    text-align: center;
+}
+
+.info_user span {
+    color: rgb(4, 40, 245);
+    font-size: 16px;
+}
+
+.accept {
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.accept a {
+    background: #ffd500;
+    color: #000;
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    text-decoration: none;
+}
+
+.accept a:hover {
+    background: #ffb500;
+    color: #fff;
+}
+
+@media(max-width:800px) {
+    .select_day select {
+        font-size: 14px;
+    }
+    .select_item {
+        font-size: 14px;
+        padding: 4px 24px;
+    }
+    .checkmark {
+        height: 20px;
+        width: 20px;
+    }
+    .select_item .checkmark:after {
+        top: 6px;
+        left: 6px;
+    }
+    .submit {
+        padding: 20px 0;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .submit input {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .info_user span {
+        font-size: 14px;
+    }
+    .info_user h2,
+    h3,
+    h4 {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:600px) {
+    .select_day select {
+        font-size: 12px;
+    }
+    .select_item {
+        font-size: 12px;
+        padding: 4px 20px;
+    }
+    .checkmark {
+        height: 15px;
+        width: 15px;
+    }
+    .select_item .checkmark:after {
+        top: 3.2px;
+        left: 3.7px;
+    }
+    .submit input {
+        font-size: 14px;
+        padding: 7px;
+    }
+    .form_regestry input {
+        font-size: 12px;
+    }
+    .info_user span {
+        font-size: 12px;
+    }
+    .info_user h2,
+    h3,
+    h4 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:415px) {
+    .general-left {
+        width: 60%;
+    }
+    .general-right {
+        width: 40%;
+    }
+    .form_regestry input {
+        width: 70%;
+        font-size: 10px;
+    }
+    .select_day select {
+        width: 30%;
+        font-size: 10px;
+    }
+    .select_item {
+        font-size: 10px;
+        padding: 2px 18px;
+    }
+    .submit {
+        padding: 10px 0;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .submit input {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
