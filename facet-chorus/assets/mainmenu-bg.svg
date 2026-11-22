@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-glow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#111f38" />
+      <stop offset="50%" stop-color="#091122" />
+      <stop offset="100%" stop-color="#040711" />
+    </radialGradient>
+
+    <!-- Node Glow Filters -->
+    <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur1" />
+      <feGaussianBlur stdDeviation="18" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-purple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur1" />
+      <feGaussianBlur stdDeviation="20" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-amber" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur1" />
+      <feGaussianBlur stdDeviation="18" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <linearGradient id="beam-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background base -->
+  <rect width="1200" height="750" fill="url(#bg-glow)" />
+
+  <!-- Subtle grid dots -->
+  <g opacity="0.08" fill="#38bdf8">
+    <circle cx="200" cy="150" r="1.5"/><circle cx="400" cy="150" r="1.5"/><circle cx="600" cy="150" r="1.5"/><circle cx="800" cy="150" r="1.5"/><circle cx="1000" cy="150" r="1.5"/>
+    <circle cx="200" cy="375" r="1.5"/><circle cx="400" cy="375" r="1.5"/><circle cx="600" cy="375" r="1.5"/><circle cx="800" cy="375" r="1.5"/><circle cx="1000" cy="375" r="1.5"/>
+    <circle cx="200" cy="600" r="1.5"/><circle cx="400" cy="600" r="1.5"/><circle cx="600" cy="600" r="1.5"/><circle cx="800" cy="600" r="1.5"/><circle cx="1000" cy="600" r="1.5"/>
+  </g>
+
+  <!-- Ambient Circuit Showcase Graphic in Center -->
+  <g transform="translate(600, 360)">
+    <!-- Circuit Conduit Lines -->
+    <path d="M -240 0 L -80 0 M -80 0 L 80 0 M 80 0 L 80 120" stroke="url(#beam-1)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.4" />
+
+    <!-- 1. Source Node (Cyan Circle) -->
+    <g transform="translate(-240, 0)">
+      <circle cx="0" cy="0" r="28" fill="#080e1e" stroke="#38bdf8" stroke-width="3.5" filter="url(#glow-cyan)" />
+      <circle cx="0" cy="0" r="10" fill="#38bdf8" />
+    </g>
+
+    <!-- 2. Linked/Center Node (Glowing Purple Diamond with dashed ring) -->
+    <g transform="translate(-80, 0)">
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#c084fc" stroke-width="2" stroke-dasharray="6 4" opacity="0.75" />
+      <polygon points="0,-28 28,0 0,28 -28,0" fill="#12182b" stroke="#c084fc" stroke-width="3.5" filter="url(#glow-purple)" />
+      <polygon points="0,-16 16,0 0,16 -16,0" fill="#c084fc" fill-opacity="0.5" />
+    </g>
+
+    <!-- 3. Small Purple Diamond Node -->
+    <g transform="translate(80, 0)">
+      <polygon points="0,-20 20,0 0,20 -20,0" fill="#12182b" stroke="#a855f7" stroke-width="3" filter="url(#glow-purple)" />
+      <polygon points="0,-11 11,0 0,11 -11,0" fill="#a855f7" fill-opacity="0.4" />
+    </g>
+
+    <!-- 4. Target Node (Amber Glowing Rounded Square) -->
+    <g transform="translate(80, 120)">
+      <rect x="-24" y="-24" width="48" height="48" rx="10" fill="#080e1e" stroke="#f59e0b" stroke-width="4" filter="url(#glow-amber)" />
+      <rect x="-12" y="-12" width="24" height="24" rx="5" fill="#f59e0b" />
+    </g>
+  </g>
+</svg>

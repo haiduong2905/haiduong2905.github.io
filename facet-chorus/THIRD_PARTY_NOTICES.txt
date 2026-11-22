@@ -1,0 +1,683 @@
+Crystal Circuit — third-party notices
+
+This file preserves local and pinned upstream notices for the runtime bundle.
+It is not an exhaustive rights clearance or a license for Crystal Circuit.
+EventEmitter3 notice is from installed package 5.0.4; the prebuilt embedded
+copy does not declare its exact version in this local inventory.
+Unresolved upstream provenance/full-notice followups: Phaser modifications of
+RTree/RBush exact fork base version (full upstream MIT text is included),
+QuickSelect, klasse,
+base64-arraybuffer, gl-matrix/vecmath, StableSort/Angry Bytes,
+MatterCollisionEvents, rvfc-polyfill, and embedded Minko Gechev, Gavin Kistner
+and Paul Bourke portions; line-circle-collision, Michael Jackson, Mike Reinstein
+and other attributed portions. Local attribution is retained below; no upstream
+copyright year, version, full permission text or clearance is invented.
+Optional installed plugins are not included merely because they exist.
+
+========================================================================
+
+Phaser 3.90.0 — MIT
+Source: node_modules/phaser/LICENSE.md
+
+The MIT License (MIT)
+
+Copyright (c) 2024 Richard Davey, Phaser Studio Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+========================================================================
+
+EventEmitter3 — installed package 5.0.4 MIT notice
+Source: node_modules/eventemitter3/LICENSE
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Arnout Kazemier
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+========================================================================
+
+Earcut 2.2.4 as modified by Phaser — local ISC notice
+Source: node_modules/phaser/src/geom/polygon/Earcut.js
+
+/*
+ * ISC License
+ *
+ * Copyright (c) 2016, Mapbox
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any purpose
+ * with or without fee is hereby granted, provided that the above copyright notice
+ * and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ * FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+ * OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+ * TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+ * THIS SOFTWARE.
+ */
+
+========================================================================
+
+Matter 0.20.0 as modified by Phaser — local MIT notice
+Source: node_modules/phaser/src/physics/matter-js/lib/license.js
+
+/**
+ * The MIT License (MIT)
+ * 
+ * Copyright (c) Liam Brummitt and contributors.
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+========================================================================
+
+Simplify.js as modified by Phaser — local BSD notice
+Source: node_modules/phaser/src/geom/polygon/Simplify.js
+
+/**
+ * Copyright (c) 2017, Vladimir Agafonkin
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are
+ * permitted provided that the following conditions are met:
+ *
+ *    1. Redistributions of source code must retain the above copyright notice, this list of
+ *       conditions and the following disclaimer.
+ *
+ *    2. Redistributions in binary form must reproduce the above copyright notice, this list
+ *       of conditions and the following disclaimer in the documentation and/or other materials
+ *       provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+ * TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+========================================================================
+
+poly-decomp 0.3.0 as modified by Phaser — local attribution
+Source: node_modules/phaser/src/physics/matter-js/poly-decomp/index.js
+
+/**
+ * @author       Stefan Hedman <schteppe@gmail.com> (http://steffe.se)
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+========================================================================
+
+RTree/RBush as modified by Phaser — local attribution
+Source: node_modules/phaser/src/structs/RTree.js
+
+/**
+ * @author       Vladimir Agafonkin
+ * @author       Richard Davey <rich@phaser.io>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+========================================================================
+
+poly-decomp 0.3.0 — pinned upstream MIT permission
+Source: third_party/notices/poly-decomp.LICENSE.txt
+Pinned upstream: https://raw.githubusercontent.com/schteppe/poly-decomp.js/fdbd8edf4972a1694333eb12286dcd37d48aeeeb/LICENSE
+Mapping: Phaser adds seven author/version header lines; all remaining source bytes match the pinned upstream source after CRLF-to-LF normalization.
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Stefan Hedman
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+========================================================================
+
+RBush — pinned upstream MIT permission for the Phaser RTree derivative
+Source: third_party/notices/rbush.LICENSE.txt
+Pinned upstream: https://raw.githubusercontent.com/mourner/rbush/a345dbd03e76552d8471115122d03293ad32c054/LICENSE
+Mapping: Phaser explicitly identifies an RBush fork. Comparison with the pinned 2.0.2 reference shows formatting, import/export, constructor and fixed-bound accessor changes, and removal of dynamic _initFormat. Exact fork base release is unverified; 2.0.2 is a comparison reference, not a claimed installed version. QuickSelect requires separate review and remains unresolved.
+
+MIT License
+
+Copyright (c) 2016 Vladimir Agafonkin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+========================================================================
+
+Unique license/copyright blocks preserved from shipped Phaser module
+Source: node_modules/phaser/dist/phaser.js
+
+/*
+ * ISC License
+ *
+ * Copyright (c) 2016, Mapbox
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any purpose
+ * with or without fee is hereby granted, provided that the above copyright notice
+ * and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ * FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+ * OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+ * TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+ * THIS SOFTWARE.
+ */
+
+/**
+ * @author       Ben Richards <benjamindrichards@gmail.com>
+ * @copyright    2024 Photon Storm Ltd.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Benjamin D. Richards <benjamindrichards@gmail.com>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Florian Vazelle
+ * @author       Geoffrey Glaive
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Greg McLean <GregDevProjects>
+ * @copyright    2021 Photon Storm Ltd.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Jason Nicholls <nicholls.jason@gmail.com>
+ * @copyright    2018 Photon Storm Ltd.
+ * @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
+ */
+
+/**
+ * @author       Joachim Grill <joachim@codeandweb.com>
+ * @author       Richard Davey <rich@phaser.io>
+ * @copyright    2018 CodeAndWeb GmbH
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Niklas von Hertzen (https://github.com/niklasvh/base64-arraybuffer)
+ * @author       Richard Davey <rich@phaser.io>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @author       @samme
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @author       Angry Bytes (and contributors)
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @author       Felipe Alfonso <@bitnenfer>
+ * @author       Matthew Groves <@doormat>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @author       Felipe Alfonso <@bitnenfer>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @author       Florian Mertens
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @author       Igor Ognichenko <ognichenko.igor@gmail.com>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @author       Pavle Goloskokovic <pgoloskokovic@gmail.com> (http://prunegames.com)
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @author       samme <samme.npm@gmail.com>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@phaser.io>
+ * @copyright    2021 Photon Storm Ltd.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Richard Davey <rich@photonstorm.com>
+ * @copyright    2013-2023 Photon Storm Ltd.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Seth Berrier <berriers@uwstout.edu>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Stefan Hedman <schteppe@gmail.com> (http://steffe.se)
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Vladimir Agafonkin
+ * @author       Richard Davey <rich@phaser.io>
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       Vladislav Forsh <vlad@robowhale.com>
+ * @copyright    2021 RoboWhale
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       pi-kei
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       samme
+ * @copyright    2013-2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       samme
+ * @copyright    2021 Photon Storm Ltd.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * @author       samme
+ * @copyright    2025 Phaser Studio Inc.
+ * @license      {@link https://opensource.org/licenses/MIT|MIT License}
+ */
+
+/**
+ * Adds a JSON File Pack, or array of packs, to the current load queue.
+ *
+ * You can call this method from within your Scene's `preload`, along with any other files you wish to load:
+ *
+ * ```javascript
+ * function preload ()
+ * {
+ *     this.load.pack('level1', 'data/Level1Files.json');
+ * }
+ * ```
+ *
+ * A File Pack is a JSON file (or object) that contains details about other files that should be added into the Loader.
+ * Here is a small example:
+ *
+ * ```json
+ * {
+ *    "test1": {
+ *        "files": [
+ *            {
+ *                "type": "image",
+ *                "key": "taikodrummaster",
+ *                "url": "assets/pics/taikodrummaster.jpg"
+ *            },
+ *            {
+ *                "type": "image",
+ *                "key": "sukasuka-chtholly",
+ *                "url": "assets/pics/sukasuka-chtholly.png"
+ *            }
+ *        ]
+ *    },
+ *    "meta": {
+ *        "generated": "1401380327373",
+ *        "app": "Phaser 3 Asset Packer",
+ *        "url": "https://phaser.io",
+ *        "version": "1.0",
+ *        "copyright": "Photon Storm Ltd. 2018"
+ *    }
+ * }
+ * ```
+ *
+ * The pack can be split into sections. In the example above you'll see a section called `test1`. You can tell
+ * the `load.pack` method to parse only a particular section of a pack. The pack is stored in the JSON Cache,
+ * so you can pass it to the Loader to process additional sections as needed in your game, or you can just load
+ * them all at once without specifying anything.
+ *
+ * The pack file can contain an entry for any type of file that Phaser can load. The object structures exactly
+ * match that of the file type configs, and all properties available within the file type configs can be used
+ * in the pack file too. An entry's `type` is the name of the Loader method that will load it, e.g., 'image'.
+ *
+ * The file is **not** loaded right away. It is added to a queue ready to be loaded either when the loader starts,
+ * or if it's already running, when the next free load slot becomes available. This happens automatically if you
+ * are calling this from within the Scene's `preload` method, or a related callback. Because the file is queued
+ * it means you cannot use the file immediately after calling this method, but must wait for the file to complete.
+ * The typical flow for a Phaser Scene is that you load assets in the Scene's `preload` method and then when the
+ * Scene's `create` method is called you are guaranteed that all of those assets are ready for use and have been
+ * loaded.
+ *
+ * If you call this from outside of `preload` then you are responsible for starting the Loader afterwards and monitoring
+ * its events to know when it's safe to use the asset. Please see the Phaser.Loader.LoaderPlugin class for more details.
+ *
+ * The key must be a unique String. It is used to add the file to the global JSON Cache upon a successful load.
+ * The key should be unique both in terms of files being loaded and files already present in the JSON Cache.
+ * Loading a file using a key that is already taken will result in a warning. If you wish to replace an existing file
+ * then remove it from the JSON Cache first, before loading a new one.
+ *
+ * Instead of passing arguments you can pass a configuration object, such as:
+ *
+ * ```javascript
+ * this.load.pack({
+ *     key: 'level1',
+ *     url: 'data/Level1Files.json'
+ * });
+ * ```
+ *
+ * See the documentation for `Phaser.Types.Loader.FileTypes.PackFileConfig` for more details.
+ *
+ * If you have specified a prefix in the loader, via `Loader.setPrefix` then this value will be prepended to this files
+ * key. For example, if the prefix was `LEVEL1.` and the key was `Waves` the final key will be `LEVEL1.Waves` and
+ * this is what you would use to retrieve the text from the JSON Cache.
+ *
+ * The URL can be relative or absolute. If the URL is relative the `Loader.baseURL` and `Loader.path` values will be prepended to it.
+ *
+ * If the URL isn't specified the Loader will take the key and create a filename from that. For example if the key is "data"
+ * and no URL is given then the Loader will set the URL to be "data.json". It will always add `.json` as the extension, although
+ * this can be overridden if using an object instead of method arguments. If you do not desire this action then provide a URL.
+ *
+ * You can also optionally provide a `dataKey` to use. This allows you to extract only a part of the JSON and store it in the Cache,
+ * rather than the whole file. For example, if your JSON data had a structure like this:
+ *
+ * ```json
+ * {
+ *     "level1": {
+ *         "baddies": {
+ *             "aliens": {},
+ *             "boss": {}
+ *         }
+ *     },
+ *     "level2": {},
+ *     "level3": {}
+ * }
+ * ```
+ *
+ * And you only wanted to store the `boss` data in the Cache, then you could pass `level1.baddies.boss`as the `dataKey`.
+ *
+ * Note: The ability to load this type of file will only be available if the Pack File type has been built into Phaser.
+ * It is available in the default build but can be excluded from custom builds.
+ *
+ * @method Phaser.Loader.LoaderPlugin#pack
+ * @fires Phaser.Loader.Events#ADD
+ * @since 3.7.0
+ *
+ * @param {(string|Phaser.Types.Loader.FileTypes.PackFileConfig|Phaser.Types.Loader.FileTypes.PackFileConfig[])} key - The key to use for this file, or a file configuration object, or array of them.
+ * @param {string} [url] - The absolute or relative URL to load this file from. If undefined or `null` it will be set to `<key>.json`, i.e. if `key` was "alien" then the URL will be "alien.json".
+ * @param {string} [dataKey] - When the JSON file loads only this property will be stored in the Cache.
+ * @param {Phaser.Types.Loader.XHRSettingsObject} [xhrSettings] - An XHR Settings configuration object. Used in replacement of the Loaders default XHR Settings.
+ *
+ * @return {this} The Loader instance.
+ */
+
+/**
+ * Copyright (c) 2017, Vladimir Agafonkin
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are
+ * permitted provided that the following conditions are met:
+ *
+ *    1. Redistributions of source code must retain the above copyright notice, this list of
+ *       conditions and the following disclaimer.
+ *
+ *    2. Redistributions in binary form must reproduce the above copyright notice, this list
+ *       of conditions and the following disclaimer in the documentation and/or other materials
+ *       provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+ * TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+/**
+* @author       Richard Davey <rich@phaser.io>
+* @copyright    2013-2025 Phaser Studio Inc.
+* @license      {@link https://github.com/photonstorm/phaser3-plugin-template/blob/master/LICENSE|MIT License}
+*/
+
+========================================================================
+
+Inline attribution and reference comments from shipped Phaser module
+Source: node_modules/phaser/dist/phaser.js
+
+//    http://jsperf.com/conversion-of-3x3-matrix-to-quaternion
+//    http://jsperf.com/typed-array-access-speed
+//  Adapted from [gl-matrix](https://github.com/toji/gl-matrix) by toji
+//  Adapted from http://bjornharrtell.github.io/jsts/doc/api/jsts_geom_Triangle.js.html
+//  Adapted from http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html by Jonas Raoni Soares Silva
+//  Adapted from https://gist.github.com/mutoo/5617691
+//  Based on the three.js Curve classes created by [zz85](http://www.lab4games.net/zz85/blog)
+//  From https://github.com/ThaUnknown/rvfc-polyfill
+//  Ref. http://docs.phonegap.com/en/3.5.0/cordova_events_events.md.html#deviceready
+//  See http://paulbourke.net/geometry/pointlineplane/
+//  Taken from klasse by mattdesl https://github.com/mattdesl/klasse
+//  and [vecmath](https://github.com/mattdesl/vecmath) by mattdesl
+//  http://www.blackpawn.com/texts/pointinpoly/
+//  https://developer.mozilla.org/en-US/docs/DOM/TouchList
+//  https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
+//  https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md
+//  https://www.khronos.org/opengl/wiki/Common_Mistakes#Texture_Unit
+// (see https://doc.mapeditor.org/en/latest/manual/custom-properties/#typed-tiles).
+// Based on http://www.gamedev.net/reference/articles/article1199.asp
+// Copyright (c) Gavin Kistner
+// Copyright (c) Minko Gechev (MIT license)
+// Copyright (c) Paul Bourke (use permitted)
+// Ref. http://msdn.microsoft.com/en-us/library/hh781509(v=vs.85).aspx for getBoundingClientRect
+// See https://developer.mozilla.org/en-US/docs/Web/Events/wheel
+// See: https://github.com/photonstorm/phaser/issues/5685
+// Uniforms are specified in the GLSL_ES Specification: http://www.khronos.org/registry/webgl/specs/latest/1.0/
+// benchmarks: http://jsperf.com/quaternion-slerp-implementations
+// benchmarks: http://jsperf.com/quaternion-transform-vec3-implementations
+// falling back on AudioListener.prototype.setPosition() method. @see https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/setPosition
+// from equations at http://www.physicsforums.com/showthread.php?t=25293
+// http://geomalgorithms.com/a10-_hull-1.html
+// http://output.to/sideway/default.asp?qno=121100087
+// http://paulbourke.net/geometry/polygonmesh/
+// http://phrogz.net/convert-svg-path-to-all-absolute-commands
+// http://phrogz.net/js/_ReuseLicense.txt
+// http://www.chiark.greenend.org.uk/~sgtatham/algorithms/listsort.html
+// http://www.khronos.org/registry/gles/specs/2.0/GLSL_ES_Specification_1.0.17.pdf
+// http://www.testufo.com/#test=animation-time-graph
+// https://bugzilla.mozilla.org/show_bug.cgi?id=814622
+// https://developer.mozilla.org/en-US/docs/Web/API/Touch_events
+// https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/scissor
+// https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/texImage2D
+// https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+// https://developers.google.com/web/updates/2012/02/HTML5-audio-and-the-Web-Audio-API-are-BFFs
+// https://ecourses.ou.edu/cgi-bin/ebook.cgi?doc=&topic=st&chap_sec=07.2&page=theory
+// https://en.wikipedia.org/wiki/Linear_congruential_generator
+// https://github.com/GoogleChrome/devtools-docs/issues/53#issuecomment-51941358
+// https://github.com/mgechev/javascript-algorithms
+// https://github.com/mrdoob/three.js/blob/master/src/extras/core/Interpolations.js
+// https://github.com/wout/svg.topoly.js/blob/master/svg.topoly.js
+// https://patrickhlauke.github.io/touch/tests/results/
+// https://w3c.github.io/gamepad/#remapping
+// https://www.html5rocks.com/en/mobile/touch/
+// interesting read https://github.com/WebAudio/web-audio-api/issues/1305
+
+========================================================================
+
+Attribution lines copied from shipped Phaser documentation comments
+Source: node_modules/phaser/dist/phaser.js
+
+* @author       @samme
+* @author       Angry Bytes (and contributors)
+* @author       Ben Richards <benjamindrichards@gmail.com>
+* @author       Benjamin D. Richards <benjamindrichards@gmail.com>
+* @author       Felipe Alfonso <@bitnenfer>
+* @author       Florian Mertens
+* @author       Florian Vazelle
+* @author       Geoffrey Glaive
+* @author       Greg McLean <GregDevProjects>
+* @author       Igor Ognichenko <ognichenko.igor@gmail.com>
+* @author       Jason Nicholls <nicholls.jason@gmail.com>
+* @author       Joachim Grill <joachim@codeandweb.com>
+* @author       Matthew Groves <@doormat>
+* @author       Niklas von Hertzen (https://github.com/niklasvh/base64-arraybuffer)
+* @author       Pavle Goloskokovic <pgoloskokovic@gmail.com> (http://prunegames.com)
+* @author       Richard Davey
+* @author       Richard Davey <rich@phaser.io>
+* @author       Richard Davey <rich@photonstorm.com>
+* @author       Seth Berrier <berriers@uwstout.edu>
+* @author       Stefan Hedman <schteppe@gmail.com> (http://steffe.se)
+* @author       Vladimir Agafonkin
+* @author       Vladislav Forsh <vlad@robowhale.com>
+* @author       pi-kei
+* @author       samme
+* @author       samme <samme.npm@gmail.com>
+* A Phaser `CanvasTexture` instance that holds the most recent snapshot taken from the video.
+* Adapted from [gl-matrix](https://github.com/toji/gl-matrix) by toji
+* Based on code by @tylerjpeterson
+* Based on code by Michael Jackson (https://github.com/mjijackson)
+* Based on code by Mike Reinstein.
+* Based on code by [Matt DesLauriers](https://github.com/mattdesl/line-circle-collision/blob/master/LICENSE.md).
+* Based on code by [Vladimir Agafonkin](https://www.npmjs.com/~mourner)
+* Function based on the Two-Screen/stable sort 0.1.8 from https://github.com/Two-Screen/stable
+* Returns an array of `quantity` Points where each point is taken from the given Line,
+* The DOM element the Pointer was pressed down on, taken from the DOM event.
+* The DOM element the Pointer was released on, taken from the DOM event.
+* The above configuration concept is adapted from the Pixi NineSlicePlane.
+* and [vecmath](https://github.com/mattdesl/vecmath) by mattdesl
+* rbush is forked from https://github.com/mourner/rbush by Vladimir Agafonkin
